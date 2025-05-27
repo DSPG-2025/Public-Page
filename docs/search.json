@@ -417,28 +417,28 @@
     "href": "schedule.html#may-27th-tuesday",
     "title": "Weekly Schedule",
     "section": "May 27th – Tuesday",
-    "text": "May 27th – Tuesday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nTidycensus Training\n\n\n\n8:00 – 9:00: Graphics Monday Exercise\n9:00 - 12:00: Tidycensus Training Starts\n\nIntroduction: Read through the Topics below on Census Reporter\n\nGetting Started\nAbout the Census\nGeography\nLook through the Table Codes to get an idea of what’s available\nThe Census Subjects headings detail how each variable is collected and what tables are associated with those variables\n\nPractice in R: Read through the Designated Sections of the Analyzing US Census Data Book\n\nReview the material from the Preface up to Chapter 5: Census Geographic Data and Applications in R\n\n\n12:00 - 1:00: Lunch Break\n1:00 - 4:00: Tidycensus Training Continues\n\nRecent Materials: Review the Working with the 2022 ACS and Analyzing 2020 Decennial US Census Data in R presentations. There is a lot of overlap with the book, but you can click the hamburger icon on the bottom left to navigate the menu when its information you’ve already learned.\nCensus Mapping: Go through the Doing ‘GIS’ and making maps with US Census data in R presentation. This will be new information so practice the code on the presentation with areas of interest to you. You can use these materials for your upcoming blog post."
+    "text": "May 27th – Tuesday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nTidycensus Training\n\n\n\n8:00 - 12:00: Tidycensus Training Starts\n\nIntroduction: Read through the Topics below on Census Reporter\n\nGetting Started\nAbout the Census\nGeography\nLook through the Table Codes to get an idea of what’s available\nThe Census Subjects headings detail how each variable is collected and what tables are associated with those variables\n\nPractice in R: Read through the Designated Sections of the Analyzing US Census Data Book\n\nReview the material from the Preface up to Chapter 5: Census Geographic Data and Applications in R\n\n\n12:00 - 1:00: Lunch Break\n1:00 - 3:30: Tidycensus Training Continues\n\nRecent Materials: Review the Working with the 2023 ACS and Analyzing 2020 Decennial US Census Data in R presentations. There is a lot of overlap with the book, but you can click the hamburger icon on the bottom left to navigate the menu when its information you’ve already learned.\n\nYou may also want to view the recording of the 2023 ACS lecture or a recording of the Decennial Census with the slides if this is how you prefer following along.\n\nCensus Mapping: Go through the Doing ‘GIS’ and making maps with US Census data in R slides. You can use also access a recording of the mapping slides these materials for the upcoming Census Report assignment.\n\n3:30 - 4:00: Introduce the Census Report Assignment."
   },
   {
     "objectID": "schedule.html#may-28th-wednesday",
     "href": "schedule.html#may-28th-wednesday",
     "title": "Weekly Schedule",
     "section": "May 28th – Wednesday",
-    "text": "May 28th – Wednesday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nProject Assignments, Matthew Voss on Quarto Documents, and Tidycensus assignment\n\n\n\n8:00 – 9:00: Team Assignments and Project Introductions\n9:00 - 12:00: TidyCensus Assignment Start\n12:00 - 1:00: Lunch Break\n1:00 - 4:00: Complete Tidycensus Reports"
+    "text": "May 28th – Wednesday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nProject Assignments, Matthew Voss on Quarto Documents, and Tidycensus assignment\n\n\n\n8:00 – 9:30: Team Assignments and First Client Meetings\n9:30 - 12:00: Census Report or Project Specific DataCamps\n12:00 - 1:00: Lunch Break\n1:00 - 4:00: : Census Report or Project Specific DataCamps"
   },
   {
     "objectID": "schedule.html#may-29th-thursday",
     "href": "schedule.html#may-29th-thursday",
     "title": "Weekly Schedule",
     "section": "May 29th – Thursday",
-    "text": "May 29th – Thursday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nStudents Hold Their First Client Meeting\n\n\n\n8:00 - 12:00: Start Project Specific DataCamp Training\n1:00 - 4:00: Client Meetings for All Teams"
+    "text": "May 29th – Thursday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nStudents Hold Their First Client Meeting\n\n\n\nAll Day: Census Report or Project Specific DataCamps"
   },
   {
     "objectID": "schedule.html#may-30th---friday",
     "href": "schedule.html#may-30th---friday",
     "title": "Weekly Schedule",
     "section": "May 30th - Friday",
-    "text": "May 30th - Friday\n\nLocation\n\nMarston 2200\n\n\n\n8:00 - 10:00: Complete Census Report Presentations\n10:00 - 12:00: Census Report Presentations\n12:00 - 1:00: DataCamp Training"
+    "text": "May 30th - Friday\n\nLocation\n\nMarston 2200\n\n\n\n8:00 - 12:00: Complete Census Reports\n12:00 - 1:00: Lunch Break\n1:00 - 4:00: Census Report Presentations"
   },
   {
     "objectID": "schedule.html#june-2nd---monday",
