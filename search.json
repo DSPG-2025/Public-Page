@@ -1,0 +1,842 @@
+[
+  {
+    "objectID": "studentBlogs/student-intro-tanishamagikar/introduction.html",
+    "href": "studentBlogs/student-intro-tanishamagikar/introduction.html",
+    "title": "Tanisha’s Introduction",
+    "section": "",
+    "text": "Tanisha’s photo\n\n\n\n\nWelcome to my introduction blog for the DSPG 2025 program! I’m excited to be a part of this summer’s data science intern cohort and share a bit about myself, my experiences, and my goals. I hope this blog not only introduces who I am but also serves as a reflection of my growth and learning over the course of the program.\n\n\n\nHi! My name is Tanisha Magikar. I’m originally from India and currently an upcoming junior at Iowa State University, majoring in Computer Science with a minor in Data Science. I chose this field because I love solving problems with technology and creating solutions that can positively impact people’s lives. I’m especially passionate about how data can be used to tell stories, make decisions, and drive innovation in everything from healthcare to finance.\n\n\n\nWith my degree, I plan to work in software or data engineering. I want to help build systems that are smart, ethical, and accessible. Data science, to me, is the bridge between raw information and meaningful impact. Whether it’s analyzing protein structures or building recommendation engines, I care about using data responsibly and creatively.\n\n\n\nI’ve been fortunate to gain hands-on experience through multiple avenues. As a backend developer at the Nannovaccine Institute, I worked on a Python-based system to organize and analyze over 1,000 Hydrolase protein properties, my first deep dive into using data science in bioinformatics.\nI’ve also developed full-stack applications, including:\n\nShopTune — a React-based e-commerce platform featuring a built-in music player for an interactive shopping experience. Github\nCYNANCE — an Android finance app that leverages AI to offer personalized budgeting and spending recommendations.Demo\n\nAlongside technical projects, I work as an IT Support Specialist at Iowa State’s College of Liberal Arts and Sciences, helping resolve technical issues for students and faculty. I’ve also served as a Peer Mentor for the Computer Science department and as Multicultural Awareness Director on the Student Union Board, where I led campus-wide initiatives for inclusivity.\n\n \n\n\n\n\nWhen I’m not coding, you’ll find me reading, listening to music, or travelling!\n\n  \n\n\n\n\n\n\nI appreciate my curiosity, adaptability, and ability to explain complex concepts clearly. These traits have helped me both as a student and a mentor.\n\n\n\n\nProgramming Languages: Python, Java, HTML, CSS, JavaScript, SQL, React, Node.js\nTools: GitHub, Microsoft Office Suite, DB SQLite, MySQL Workbench, JMP Software, Android Studio, Neo4j, Mongodb\nDesigning Tools: Wix, Canva, Figma\n\n\n\n\n\nProficiency in data wrangling and exploratory data analysis using R or Python (Pandas, NumPy)\n\nBetter understanding of machine learning models and how to apply them to real-world data\n\nCollaborative research skills, including documentation, communication, and reproducible workflows\n\n\n\n\nThese skills are essential for becoming a data analyst who not only analyzes data but also translates it into actionable insights. I want to be able to contribute meaningfully to interdisciplinary projects, especially those with social or scientific impact.\n\n\n\nI aim to work closely with mentors, ask lots of questions, contribute actively to my team, and document my learning process.\n\nThank you for taking the time to read my introduction! I’m looking forward to a summer of collaboration and data-driven impact.\n\n\n\n\n\nLinkedIn\nEmail\nGitHub"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-tanishamagikar/introduction.html#objectives",
+    "href": "studentBlogs/student-intro-tanishamagikar/introduction.html#objectives",
+    "title": "Tanisha’s Introduction",
+    "section": "",
+    "text": "Welcome to my introduction blog for the DSPG 2025 program! I’m excited to be a part of this summer’s data science intern cohort and share a bit about myself, my experiences, and my goals. I hope this blog not only introduces who I am but also serves as a reflection of my growth and learning over the course of the program."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-tanishamagikar/introduction.html#introduction",
+    "href": "studentBlogs/student-intro-tanishamagikar/introduction.html#introduction",
+    "title": "Tanisha’s Introduction",
+    "section": "",
+    "text": "Hi! My name is Tanisha Magikar. I’m originally from India and currently an upcoming junior at Iowa State University, majoring in Computer Science with a minor in Data Science. I chose this field because I love solving problems with technology and creating solutions that can positively impact people’s lives. I’m especially passionate about how data can be used to tell stories, make decisions, and drive innovation in everything from healthcare to finance."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-tanishamagikar/introduction.html#my-plans-and-passions",
+    "href": "studentBlogs/student-intro-tanishamagikar/introduction.html#my-plans-and-passions",
+    "title": "Tanisha’s Introduction",
+    "section": "",
+    "text": "With my degree, I plan to work in software or data engineering. I want to help build systems that are smart, ethical, and accessible. Data science, to me, is the bridge between raw information and meaningful impact. Whether it’s analyzing protein structures or building recommendation engines, I care about using data responsibly and creatively."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-tanishamagikar/introduction.html#my-experience",
+    "href": "studentBlogs/student-intro-tanishamagikar/introduction.html#my-experience",
+    "title": "Tanisha’s Introduction",
+    "section": "",
+    "text": "I’ve been fortunate to gain hands-on experience through multiple avenues. As a backend developer at the Nannovaccine Institute, I worked on a Python-based system to organize and analyze over 1,000 Hydrolase protein properties, my first deep dive into using data science in bioinformatics.\nI’ve also developed full-stack applications, including:\n\nShopTune — a React-based e-commerce platform featuring a built-in music player for an interactive shopping experience. Github\nCYNANCE — an Android finance app that leverages AI to offer personalized budgeting and spending recommendations.Demo\n\nAlongside technical projects, I work as an IT Support Specialist at Iowa State’s College of Liberal Arts and Sciences, helping resolve technical issues for students and faculty. I’ve also served as a Peer Mentor for the Computer Science department and as Multicultural Awareness Director on the Student Union Board, where I led campus-wide initiatives for inclusivity."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-tanishamagikar/introduction.html#hobbies",
+    "href": "studentBlogs/student-intro-tanishamagikar/introduction.html#hobbies",
+    "title": "Tanisha’s Introduction",
+    "section": "",
+    "text": "When I’m not coding, you’ll find me reading, listening to music, or travelling!"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-tanishamagikar/introduction.html#learning-goals-for-dspg",
+    "href": "studentBlogs/student-intro-tanishamagikar/introduction.html#learning-goals-for-dspg",
+    "title": "Tanisha’s Introduction",
+    "section": "",
+    "text": "I appreciate my curiosity, adaptability, and ability to explain complex concepts clearly. These traits have helped me both as a student and a mentor.\n\n\n\n\nProgramming Languages: Python, Java, HTML, CSS, JavaScript, SQL, React, Node.js\nTools: GitHub, Microsoft Office Suite, DB SQLite, MySQL Workbench, JMP Software, Android Studio, Neo4j, Mongodb\nDesigning Tools: Wix, Canva, Figma\n\n\n\n\n\nProficiency in data wrangling and exploratory data analysis using R or Python (Pandas, NumPy)\n\nBetter understanding of machine learning models and how to apply them to real-world data\n\nCollaborative research skills, including documentation, communication, and reproducible workflows\n\n\n\n\nThese skills are essential for becoming a data analyst who not only analyzes data but also translates it into actionable insights. I want to be able to contribute meaningfully to interdisciplinary projects, especially those with social or scientific impact.\n\n\n\nI aim to work closely with mentors, ask lots of questions, contribute actively to my team, and document my learning process.\n\nThank you for taking the time to read my introduction! I’m looking forward to a summer of collaboration and data-driven impact.\n\n\n\n\n\nLinkedIn\nEmail\nGitHub"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-madherd/introduction.html",
+    "href": "studentBlogs/student-intro-madherd/introduction.html",
+    "title": "Madison’s Introduction",
+    "section": "",
+    "text": "Overview\nHello! My name is Madison Herdlicka and I am from Cedar Rapids, IA. In Fall 2025, I will be a Junior majoring in Community and Regional Planning and minoring in Environmental Studies. I chose my academic career path to help communites and regional networks be inclusive, resillient, and beautiful while also working to protect the environment and reduce city impacts.\n\n\n\nGoals\nPost-graduation, I hope to work as a planner in the public sector for a local government. Tackling affordable housing, climate action, historic preservation, land use, economic health and development, and many other opportunities and problems existing in rural and urban communities.\n\n\nData Science\nData science is a crucial factor in planning to inform decision making. My previous experience with data science has come from courses including Fundamentals of GIS, Intermediate GIS, and Urban Analytical Methods, where I have had to use various datasets to project population, calculate diversity indexes, assess housing affordability, and perform spatial and economic analyses. Without data science, the planning profession would struggle to make informed community policies and plans. Below is a GIS project I worked on in Intermediate GIS, exploring waste management service equity in Linn County, IA.\n\n\n\nGIS Project\n\n\n\n\nHobbies\nOutside academics, I love hanging out with friends, thrifting, traveling, trying new foods, and listening to music. My favorite place I have traveled to is Dublin, Ireland. My most recent travel was to Steamboat Springs, Colorado, for a field travel course, where we met with city and ski resort planners, housing administration, and historic preservation representatives to learn about the city’s housing crisis and other initiatives. My most looked forward to travel is the Spring 2026 study abroad trip to India to study transportation and smart cities.\n\nDublin, Ireland\n\n\nDSPG Goals\nThroughout my time in the DSPG Program, I look forward to expanding my data science skills by contributing to meaningful projects. I am especially excited to learn and apply coding skills for the first time. In relation to data science, I am skilled in using GIS applications, taking my time to create outputs that are done correctly and look nice, and being open and ready to learn as many new things as possible. From the DSPG Program, I would like to learn how to use Tableau to visualize analyzed data and be comfortable using Git and GitHub. The skills I wish to gain from this program will further my ability to use data science in my academic and career path. I plan to improve these skills by learning collaboratively with the other program members and implementing them into our project.\n\n\nConnect With Me!\nLinkedin"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-Meen191/introduction.html",
+    "href": "studentBlogs/student-intro-Meen191/introduction.html",
+    "title": "My SUMMER WITH DSPG",
+    "section": "",
+    "text": "My name is meenakshi. I am an international student from India pursuing my master’s in political science; I did my B.A. in international relations from the University of Delhi. I have also served as a research assistant for the Department of Community and Economic Development. I worked on several interesting projects with CED like digital accessibility across ISU, governance ethics, and civic infrastructure. I chose political science to understand how public policies are drafted and then implemented on the ground. Another area of interest is analyzing wars and how they shape societies and long-term political outcomes."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-Meen191/introduction.html#introduction",
+    "href": "studentBlogs/student-intro-Meen191/introduction.html#introduction",
+    "title": "My SUMMER WITH DSPG",
+    "section": "",
+    "text": "My name is meenakshi. I am an international student from India pursuing my master’s in political science; I did my B.A. in international relations from the University of Delhi. I have also served as a research assistant for the Department of Community and Economic Development. I worked on several interesting projects with CED like digital accessibility across ISU, governance ethics, and civic infrastructure. I chose political science to understand how public policies are drafted and then implemented on the ground. Another area of interest is analyzing wars and how they shape societies and long-term political outcomes."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-Meen191/introduction.html#plans-with-my-degree",
+    "href": "studentBlogs/student-intro-Meen191/introduction.html#plans-with-my-degree",
+    "title": "My SUMMER WITH DSPG",
+    "section": "PLANS WITH MY DEGREE",
+    "text": "PLANS WITH MY DEGREE\nI want to work in policy research to ensure fair and informative decisions. I am also interested in future research on how war shapes civic and national identities."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-Meen191/introduction.html#why-data-science-is-important-to-me.",
+    "href": "studentBlogs/student-intro-Meen191/introduction.html#why-data-science-is-important-to-me.",
+    "title": "My SUMMER WITH DSPG",
+    "section": "Why Data Science is important to me.",
+    "text": "Why Data Science is important to me.\nComing from a humanities background, data is not just numbers for me; it’s about asking the right questions and finding patterns to help people. It amazes me how data transforms abstract ideas into something you can understand and replicate."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-Meen191/introduction.html#prior-experience-with-data-science",
+    "href": "studentBlogs/student-intro-Meen191/introduction.html#prior-experience-with-data-science",
+    "title": "My SUMMER WITH DSPG",
+    "section": "Prior Experience with Data Science",
+    "text": "Prior Experience with Data Science\nI come from non-technical background but over the years I have developed strong interest in data; for my statistics class, I worked on a project where I analyzed the correlation between a crime against women in India and Socio-economic factors. I used publicly available data from national records of crime bureau and state-level data on literacy rate, urbanization, unemployment, and poverty. For that project, I used software called JMP. Currently, in the last 3 months, I have been learning R."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-Meen191/introduction.html#hobbies",
+    "href": "studentBlogs/student-intro-Meen191/introduction.html#hobbies",
+    "title": "My SUMMER WITH DSPG",
+    "section": "Hobbies",
+    "text": "Hobbies\nCreative writing, journal, Learning R and python these days"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-Meen191/introduction.html#interesting-facts",
+    "href": "studentBlogs/student-intro-Meen191/introduction.html#interesting-facts",
+    "title": "My SUMMER WITH DSPG",
+    "section": "interesting facts",
+    "text": "interesting facts\nI once started a YouTube channel ; during that process, I learned a bit of 3-D modeling. I like finding patterns, whether political events or people’s behaviors."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-Meen191/introduction.html#skills-i-value",
+    "href": "studentBlogs/student-intro-Meen191/introduction.html#skills-i-value",
+    "title": "My SUMMER WITH DSPG",
+    "section": "Skills I Value",
+    "text": "Skills I Value\nclear writing and communications, asking meaningful questions, understanding theory and practical needs"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-Meen191/introduction.html#data-science-skills-i-already-have",
+    "href": "studentBlogs/student-intro-Meen191/introduction.html#data-science-skills-i-already-have",
+    "title": "My SUMMER WITH DSPG",
+    "section": "data science skills I already have",
+    "text": "data science skills I already have\nBasic work in R, cleaning and organizing data, Analyzing patterns and making simple visualization"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-Meen191/introduction.html#skills-i-want-to-learn",
+    "href": "studentBlogs/student-intro-Meen191/introduction.html#skills-i-want-to-learn",
+    "title": "My SUMMER WITH DSPG",
+    "section": "skills I want to learn",
+    "text": "skills I want to learn\nWriting better, cleaner R code, Basics of GIS, Creating strong and simple data visualization."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-Meen191/introduction.html#why-do-these-skills-matter-to-me",
+    "href": "studentBlogs/student-intro-Meen191/introduction.html#why-do-these-skills-matter-to-me",
+    "title": "My SUMMER WITH DSPG",
+    "section": "why do these skills matter to me",
+    "text": "why do these skills matter to me\nThese skills will helps me to turn ideas into action. I wan to use them to work on real problems and make my research more useful and practical"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html",
+    "href": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html",
+    "title": "Aparneesh’s Introduction",
+    "section": "",
+    "text": "Hello everyone! My name is Aparneesh Patil, and I am currently a junior majoring in Computer Science and Applied Mathematics. I was born in India but have been in the US for the past 11 years, residing in St. Louis, Missouri. With this dual degree, I’m hoping to pursue a career in either machine learning or quant finance."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html#prior-experience",
+    "href": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html#prior-experience",
+    "title": "Aparneesh’s Introduction",
+    "section": "Prior Experience",
+    "text": "Prior Experience\n\nUndergraduate Research\nHeadStarter-AI fellowship\nFirst-Years Honors Mentor"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html#why-data-science",
+    "href": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html#why-data-science",
+    "title": "Aparneesh’s Introduction",
+    "section": "Why Data Science?",
+    "text": "Why Data Science?\nDuring my undergrad research, I found that I really enjoy working with data and building neural network models using real-world datasets. That experience sparked a deeper interest in data science and led me to the DSPG program. Through this program, I hope to improve my skills in R and SQL while also refining my skills in Python. I’m excited to use these tools on meaningful projects and continue growing as a data scientist."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html#skills",
+    "href": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html#skills",
+    "title": "Aparneesh’s Introduction",
+    "section": "Skills",
+    "text": "Skills\nOne skill that I value and appreciate about myself is my tenacity. In tough situations, rather than finding the easy way out, I like to push through the struggle and find a solution to the problem. I also value my communication and collaborative skills."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html#hobbies",
+    "href": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html#hobbies",
+    "title": "Aparneesh’s Introduction",
+    "section": "Hobbies",
+    "text": "Hobbies\nIn my free time, you’ll either catch me in the gym or playing basketball. I also love watching sports and recently got hooked on hockey and football. Other than that, I spend my time hanging out with my family and friends."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html#fun-fact",
+    "href": "studentBlogs/student-intro-ISU-Aparneesh/introduction.html#fun-fact",
+    "title": "Aparneesh’s Introduction",
+    "section": "Fun Fact",
+    "text": "Fun Fact\nI can understand 4 languages (though my speech is broken in 2 of them) and also have double-jointed elbows (which means my elbows have an unusually large range of motion).\n\n\n\n(Here’s an image of double-jointed elbows)"
+  },
+  {
+    "objectID": "studentBlogs/harun/harun_Introduction.html",
+    "href": "studentBlogs/harun/harun_Introduction.html",
+    "title": "Harun’s Introduction",
+    "section": "",
+    "text": "My name is Harun Celik and I am an international student from Turkey with a background in History. History and data science might seem like polar opposites to a lot of people but for me, the disciplines not only intersect at interesting places, but compliment each other well. I find that historians are particularly good at viewing phenomena from multiple perspectives, and data scientists are particularly good at presenting data from different vantage points. These things are certainly similar but not the same.\n\n\n\nA Very Descriptive Venn Diagram\n\n\nI’ve recently switched over to doing my PhD in Education I like teaching. In particular, I care about teaching interdisciplinary methodologies to help approach questions in social disciplines by providing a different angle than what’s traditionally taken. I am pursuing my degree as a way to learn about the different ways that I can approach subjects I care deeply about. These include…\n\nDeveloping pedagogy around The Use of Technology in the Social Sciences.\nUsing Research to Develop Programs that Practice Experiential Learning.\nExperimenting with Data Science and Spatial Technology on Public Data."
+  },
+  {
+    "objectID": "studentBlogs/harun/harun_Introduction.html#about-me",
+    "href": "studentBlogs/harun/harun_Introduction.html#about-me",
+    "title": "Harun’s Introduction",
+    "section": "",
+    "text": "My name is Harun Celik and I am an international student from Turkey with a background in History. History and data science might seem like polar opposites to a lot of people but for me, the disciplines not only intersect at interesting places, but compliment each other well. I find that historians are particularly good at viewing phenomena from multiple perspectives, and data scientists are particularly good at presenting data from different vantage points. These things are certainly similar but not the same.\n\n\n\nA Very Descriptive Venn Diagram\n\n\nI’ve recently switched over to doing my PhD in Education I like teaching. In particular, I care about teaching interdisciplinary methodologies to help approach questions in social disciplines by providing a different angle than what’s traditionally taken. I am pursuing my degree as a way to learn about the different ways that I can approach subjects I care deeply about. These include…\n\nDeveloping pedagogy around The Use of Technology in the Social Sciences.\nUsing Research to Develop Programs that Practice Experiential Learning.\nExperimenting with Data Science and Spatial Technology on Public Data."
+  },
+  {
+    "objectID": "studentBlogs/harun/harun_Introduction.html#my-dspg-experience",
+    "href": "studentBlogs/harun/harun_Introduction.html#my-dspg-experience",
+    "title": "Harun’s Introduction",
+    "section": "My DSPG Experience",
+    "text": "My DSPG Experience\nAs an additional degree, I’ve completed the Graduate GIS Certificate Program at ISU and sought for ways to practice these skills on projects that had some public influence. This is how I stumbled across the DSPG program and applied to be a graduate fellow for summer of 2022. I enjoyed the experience so much that I wanted to rejoin the following summer in 2023 with a couple of additional responsibilities. After sharing my ideas with the Community and Economic Development Extension team, I was lucky to get an assistantship that focused on improving the DSPG program with the responses we’ve received from past participants through our surveys.\nI really enjoy the DSPG program for a multitude of reasons, but here a couple of my favorites.\n\nThe program supports communal and personal learning.\n\nParticipants to the program come from varying levels of education, from first year students to PhD candidates. This usually means that everyone comes in at different skill levels and uses that to either develop the skills that they already know or learn new ones.\n\nProjects are quite varied in their goals and flexible for hands-on learning\n\nDifferent clients expect different results and for a lot of the projects, it is the exploration conducted by students that shapes the final deliverable of the projects.\n\nThe program address real questions by clients interested in learning from data.\n\nThe DSPG projects address complex and real questions about the social world making the application of data science skills extremely practical for real-world scenarios."
+  },
+  {
+    "objectID": "studentBlogs/harun/harun_Introduction.html#my-dspg-expectations-this-year",
+    "href": "studentBlogs/harun/harun_Introduction.html#my-dspg-expectations-this-year",
+    "title": "Harun’s Introduction",
+    "section": "My DSPG Expectations This Year",
+    "text": "My DSPG Expectations This Year\nBeing the coordinator of the program for the second time, my main objectives are to make sure that the DSPG experience is enjoyable and informative for everyone involved. It is exciting to have projects that somewhat change every year and working with a new cohort of students is always a meaningful experience for me.\nFor the past couple of years I’ve primarily been programming in R, but it looks like this year the majority of students favor using Python so I’m excited to continue learning and making more pedagogical activities using Python."
+  },
+  {
+    "objectID": "studentBlogs/harun/harun_Introduction.html#fun-fact",
+    "href": "studentBlogs/harun/harun_Introduction.html#fun-fact",
+    "title": "Harun’s Introduction",
+    "section": "Fun Fact",
+    "text": "Fun Fact\nRecently I’ve been on the philosophy train trying to read into different philosophical traditions of thought such as Rationalism, Idealism, and Pragmatism.\nI am currently reading the MIT Press Essential Knowledge Series book Pragmatism by John R. Shook and finding it a nice balance of informative, but also philosophical."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Quarto Guides\n\n\n\n\nOverleaf LateX Guide"
+  },
+  {
+    "objectID": "resources.html#quarto",
+    "href": "resources.html#quarto",
+    "title": "Resources",
+    "section": "",
+    "text": "Quarto Guides"
+  },
+  {
+    "objectID": "resources.html#latex",
+    "href": "resources.html#latex",
+    "title": "Resources",
+    "section": "",
+    "text": "Overleaf LateX Guide"
+  },
+  {
+    "objectID": "resources.html#packages-and-modules",
+    "href": "resources.html#packages-and-modules",
+    "title": "Resources",
+    "section": "Packages and Modules",
+    "text": "Packages and Modules"
+  },
+  {
+    "objectID": "resources.html#data-manipulation",
+    "href": "resources.html#data-manipulation",
+    "title": "Resources",
+    "section": "Data Manipulation",
+    "text": "Data Manipulation\nPandas\ndask"
+  },
+  {
+    "objectID": "resources.html#visualization",
+    "href": "resources.html#visualization",
+    "title": "Resources",
+    "section": "Visualization",
+    "text": "Visualization\nMatplotlib\nSeaborn"
+  },
+  {
+    "objectID": "resources.html#books",
+    "href": "resources.html#books",
+    "title": "Resources",
+    "section": "Books",
+    "text": "Books\nR for Data Science\nAdvanced R\nAdvanced R Solutions\nR Graphics Cookbook\nElegant Graphics for Data Analysis\nMastering R Shiny"
+  },
+  {
+    "objectID": "resources.html#packages",
+    "href": "resources.html#packages",
+    "title": "Resources",
+    "section": "Packages",
+    "text": "Packages\nPackage Cheatsheets\n\n\nData Manipulation\ndplyr\ntidycensus\nstringr\nreadr\nscales\npurrr\nfurrr\n\n\n\nVisualizations\nggplot2\n\n\n\nTable Manipulation\nGT\nflextable\n\n\n\nSpatial\nsf\nleaflet\nmapview\n\n\n\nDashboarding\nshiny\nflexdashboard\n\n\n\nPython Integration\nReticulate"
+  },
+  {
+    "objectID": "resources.html#tidycensus",
+    "href": "resources.html#tidycensus",
+    "title": "Resources",
+    "section": "tidycensus",
+    "text": "tidycensus\nAnalyzing US Census Data\nWorking with the 2022 ACS\nAnalyzing 2020 Decennial US Census Data in R\nDoing ‘GIS’ and making maps with US Census data in R"
+  },
+  {
+    "objectID": "resources.html#census-information",
+    "href": "resources.html#census-information",
+    "title": "Resources",
+    "section": "Census Information",
+    "text": "Census Information\nCensus Reporter\nCensus Bureau Handbooks for Data Users\nAmerican Community Survey (ACS) Handbook\nAmerican Community Survey (ACS) Documentation\nPublic Use Microdata Sample (PuMS) Handbook\nPublic Use Microdata Sample (PuMS) Documentation\nIPUMS PUMS Access"
+  },
+  {
+    "objectID": "resources.html#books-1",
+    "href": "resources.html#books-1",
+    "title": "Resources",
+    "section": "Books",
+    "text": "Books\nCausality for Machine Learning"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science for Public Good 2025",
+    "section": "",
+    "text": "This Quarto website is an experimental page hosting project documentation for the 2024 Data Science for Public Good program at Iowa State University. The Project Blogs tab contains the documentation for each team’s work on a regular basis. The Student Blogs tab contains the introductory blog posts of all participants in DSPG for the summer of 2025. The Activities tab contains student work on activities they’ve completed as part of the program.\nTo learn more about the program, follow the link to the Iowa State University DSPG Program."
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Data Science for Public Good 2025",
+    "section": "",
+    "text": "This Quarto website is an experimental page hosting project documentation for the 2024 Data Science for Public Good program at Iowa State University. The Project Blogs tab contains the documentation for each team’s work on a regular basis. The Student Blogs tab contains the introductory blog posts of all participants in DSPG for the summer of 2025. The Activities tab contains student work on activities they’ve completed as part of the program.\nTo learn more about the program, follow the link to the Iowa State University DSPG Program."
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Data Science for Public Good 2025",
+    "section": "Projects",
+    "text": "Projects\n\nIowa STEM Inventory\nDespite the recognized importance of STEM initiatives, there remains a lack of comprehensive and actionable data on the availability and distribution of STEM resources within Iowa communities. It is unclear how extensive these resources are and how effectively they can be mobilized to support STEM education development. Additionally, a deeper understanding is needed of the factors influencing students’ decisions to pursue STEM education in Iowa, such as access to local job opportunities, educational infrastructure, participation in science fairs, and extracurricular programs. This project seeks to address these gaps by developing a centralized, user-friendly data repository along with visualization tools that present clear and contextual information. These resources will serve Iowa’s policymakers, educators, advocates, and community stakeholders by informing strategic decisions, guiding investments, and supporting targeted policy interventions to strengthen STEM education throughout the state.\nProject Sponsor: ISU Community and Economic Development\n\n\n\nHealthy Community Capitals\nThe Community Capitals project seeks to explore the relationship between community capital indicators and the overall condition of communities in Iowa, aiming to identify strengths, weaknesses, opportunities, and gaps within these communities. The main work focuses on major events such as natural disasters, job losses, new job creation, school closures, and new opportunities for tourism and healthcare. The study seeks to identify the most relevant community capitals, trends over time, and the impact on community resiliency, by analyzing correlations between various indicators and comparing quantitative data with some qualitative insights.\nProject Sponsor: ISU Community and Economic Development"
+  },
+  {
+    "objectID": "allBlogs.html",
+    "href": "allBlogs.html",
+    "title": "Project Blogs",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 22, 2025\n\n\nBlog Writing Guidelines\n\n\nHarun Celik\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "activities.html",
+    "href": "activities.html",
+    "title": "Program Activities",
+    "section": "",
+    "text": "This section of the page displays the work students have completed for weekly activities in the program."
+  },
+  {
+    "objectID": "blogs2025/Blog_Guidelines/index.html",
+    "href": "blogs2025/Blog_Guidelines/index.html",
+    "title": "Blog Writing Guidelines",
+    "section": "",
+    "text": "Welcome to the DSPG Quarto blog. This post will be a demonstration of some of the capabilities of a quarto doc and some basics of dos and don’ts as you’re writing your own blogs throughout the DSPG program."
+  },
+  {
+    "objectID": "blogs2025/Blog_Guidelines/index.html#quarto-markdown-.qmd-files",
+    "href": "blogs2025/Blog_Guidelines/index.html#quarto-markdown-.qmd-files",
+    "title": "Blog Writing Guidelines",
+    "section": "Quarto Markdown (.qmd files)",
+    "text": "Quarto Markdown (.qmd files)\nThese blogs are generated using Quarto Markdown (.qmd). Markdown is a special type of text format that is both legible with and without its rendering. Quarto Markdown follows the syntax of basic Markdown and has some additional features for use as well. The Markdown Basics guide on the Quarto page will be a great resource to view how you can format your texts."
+  },
+  {
+    "objectID": "blogs2025/Blog_Guidelines/index.html#yaml-headers",
+    "href": "blogs2025/Blog_Guidelines/index.html#yaml-headers",
+    "title": "Blog Writing Guidelines",
+    "section": "Yaml Headers",
+    "text": "Yaml Headers\nEach blog has its own yaml style metadata section at the top of the file. This one has a metadata section that looks something like this in the source code.\n---\ntitle: \"Blog Writing Guidelines\"  # The title of your post\nauthor: \"Harun Celik\"             # The author associated with the blog post\ndate: \"2024-05-05\"                # The date in Year-Month-Day format\ncategories: [blog tutorial]       # The categories associated with the blog\n---\nThere are additional options for the yaml that you can check out through the Quarto documentation page."
+  },
+  {
+    "objectID": "blogs2025/Blog_Guidelines/index.html#linking-pages-and-images",
+    "href": "blogs2025/Blog_Guidelines/index.html#linking-pages-and-images",
+    "title": "Blog Writing Guidelines",
+    "section": "Linking Pages and Images",
+    "text": "Linking Pages and Images\nYou can link items in your files by using the following syntax [Text of Link](Link Reference - URL). Referencing also works for adding images into your blogs. The syntax is very similar, but requires an ! in the front. So an example would be ![Stock Photo of a Data Cat](imgs/Data_Cat.png)\n\n\n\nMy Cat Learning About Quantum Probabilities\n\n\nSince this post doesn’t specify an explicit image in the yaml, the first image in the post will be used as the thumbnail of the post. A couple of things to remember with linking images.\n\nPlace your images in the imgs directory. This helps prevent clutter and makes it easier to find the files.\nName your images explicitly. Don’t call them \"image_1.jpg\" but instead something like \"age_scatterplot_1\".\nDon’t save file names with any spaces. Add an _ or use camelCaseNaming. Spaces will prevent the blog from properly rendering!\nMake sure you follow copyright guidelines on images. Don’t add images you would not be permitted to share in any professional environment."
+  },
+  {
+    "objectID": "blogs2025/Blog_Guidelines/index.html#running-code",
+    "href": "blogs2025/Blog_Guidelines/index.html#running-code",
+    "title": "Blog Writing Guidelines",
+    "section": "Running Code",
+    "text": "Running Code\n\nCode Chunks\nOne of the coolest features of the Quarto blogs is the ability to integrate code chunks and have them render. Let’s check out how this works. Here is an example of what a code chunk looks like in the source code.\n\nprint(\"I would like for this text to print.\")\n\n[1] \"I would like for this text to print.\"\n\n\nUsing different markdown arguments, we can customize our code chunks to prevent them from running, displaying, or rendering messages. You can check out some of those options through the R Markdown Reference Guide.\nSome useful ones are below.\neval=TRUE      # If FALSE, knitr will not run the code in the code chunk.\ninclude=TRUE   # If FALSE, knitr will run the chunk but not include the chunk in the final document.\necho=TRUE      # If FALSE, knitr will not display the code in the code chunk above it’s results in the final document.\nmessage=TRUE   # If FALSE, knitr will not display any messages generated by the code.\nwarning=TRUE   # If FALSE, knitr will not display any warning messages generated by the code\n\n\nUsing Data\nMost of the time, you’ll want to run some code that generates a table or a visual of your data. To do this, quarto will need a local reference to your data and that’s why your blogs also come with a directory labelled data\\. If you are working within R, it is advisable to use the .RDS format for saving any data you want to use for displaying code. Let’s look at an example.\n\n# Let's create a data frame to use\n\n## Generate pay grades as factors\nGrades &lt;- c(\"Grade A\", \"Grade B\", \"Grade C\", \"Grade D\", \"Grade E\")\nGrades_Factor &lt;- factor(Grades, levels = c(\"Grade A\", \"Grade B\", \"Grade C\", \"Grade D\", \"Grade E\"))\n\n# Create randomized vectors of size 50\nGender &lt;- sample(x = c(\"Woman\", \"Man\", \"Transgender\", \"Non-binary/non-conforming\", \"Prefer not to respond\"), size=50, replace = TRUE)\nID &lt;- sample(x = 1000:3000, size=50)\nPay &lt;- sample(x = Grades_Factor, size=50, replace=TRUE)\n\n# Create data frame\ndf &lt;- data.frame(Gender, ID, Pay)\n\nIn our example here we’ve created the data in our blog environment, but often this will not be the case. We are going to pretend that our data is stored in the data directory. We will first save the data we created.\n\n# Saving our dataset\nsaveRDS(df, file = \"data/PayData.RDS\")\n\nNow we can load it in as Pay_DF.\n\nPay_DF &lt;- readRDS(\"data/PayData.RDS\")\n\nLet’s write some code with ggplot2 to create a visual.\n\nlibrary(ggplot2)\n\npay_colors &lt;- c(\"Grade A\" = \"#1f78b4\", \"Grade B\" = \"#33a02c\", \"Grade C\" = \"#e31a1c\", \"Grade D\" = \"#ff7f00\", \"Grade E\" = \"#6a3d9a\")\n\nggplot(Pay_DF, aes(x = Gender, fill = Pay)) +\n  geom_bar() +\n  labs(x = \"Gender\", y = \"Count\", title = \"Distribution of Pay Grades Across Genders\") +\n  scale_fill_manual(values = pay_colors) +\n  theme_minimal() +\n  coord_flip()\n\n\n\n\n\n\n\n\n\n\nData Guidelines\nHere are some important things to consider when you’re using data sets in your blogs.\n\nVERY IMPORTANT: All data saved in the data directory is publicly visible. Don’t share data that is private into your blogs.\nBe mindful of the size of your data. The larger the data, the longer it will take to render. GitHub also limits commit sizes so keep this in mind."
+  },
+  {
+    "objectID": "blogs2025/Blog_Guidelines/index.html#using-other-languages",
+    "href": "blogs2025/Blog_Guidelines/index.html#using-other-languages",
+    "title": "Blog Writing Guidelines",
+    "section": "Using Other Languages",
+    "text": "Using Other Languages\nThe last thing we will look at is displaying code for languages other than R. Quarto Markdown files have the ability to change the rendering engine so that other languages can also be used. To run both Python and R, you will have to have the reticulate library installed and configured. When you’ve created a code chunk, you will want to switch the section that is typically in the form of {r} to {python} or whatever other supported language you wish to use.\nHere is a Python code block.\n\nimport platform\n\nprint(\"This code is run using python version\", platform.python_version())\n\nThis code is run using python version 3.13.1"
+  },
+  {
+    "objectID": "blogs2025/Blog_Guidelines/index.html#resources",
+    "href": "blogs2025/Blog_Guidelines/index.html#resources",
+    "title": "Blog Writing Guidelines",
+    "section": "Resources",
+    "text": "Resources\n\nQuarto Tutorials\nQuarto Websites/Blogs\nQuarto Markdown Reference Guide\nRMarkdown Reference Guide"
+  },
+  {
+    "objectID": "participants.html",
+    "href": "participants.html",
+    "title": "Program Participants",
+    "section": "",
+    "text": "Program Leader\n\nChristopher J. Seeger, Professor, Landscape Architecture; Extension Specialist in Geospatial Technologies\n\nProgram Coordinator\n\nHarun Çelik, Higher Education and Graduate GIS Certificate\n\nProject Advisers\n\nLisa Bates, Assistant Director, Community and Economic Development\nBailey Hanson, Data Analyst in Community and Economic Development Extension\nMohammad Ahnaf Sadat, Industrial and Manufacturing Systems Engineering\n\nProgram Advisers\n\nAdisak Sukul, Ph.D. Associate Teaching Professor\nHeike Hoffman, Professor\nTodd Abraham, Research Scientist\n\nGraduate Fellows\n\nJorge Yass, Human Computer Interaction and Computer Engineering\nMeenakshi, Political Science\n\nUndergraduate Interns\n\nAparneesh P. Patil, Computer Science and Applied Mathematics\nDuy Doan, Computer Science and Mathematics\nTanisha M. Magikar, Computer Science\nEkaterina Kurkalova, Data Science and Minor in Russian Studies\nMadison R. Herdlicka, Community and Regional Planning\nRishita Kollu, Computer Engineering and Minor in Data Science"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Weekly Schedule",
+    "section": "",
+    "text": "Jump to This Week’s Schedule"
+  },
+  {
+    "objectID": "schedule.html#may-21st-wednesday",
+    "href": "schedule.html#may-21st-wednesday",
+    "title": "Weekly Schedule",
+    "section": "May 21st – Wednesday",
+    "text": "May 21st – Wednesday\n\nLocation\n\nEast Hall 311 (EVERY MON-THUR)\n\nDaily Goals\n\nDSPG Introductions, Data Camp Assessments, and Data Team Activity\n\n\n\n8:00 – 9:30:\n\nProgram Introductions and Syllabus\n\n9:30 - 12:00:\n\nDataCamp Assessments\n\nAnalytic Fundamentals\nR Programming\nPython Programming\nAI Fundamentals\n\n\n12:00 - 1:00: Lunch Break\n1:00 - 1:15: Data Team Activity Introduction\n1:15 - 3:15: Data Team Activity Work Time\n3:15 - 4:00: Data Team Activity Presentations"
+  },
+  {
+    "objectID": "schedule.html#may-22nd-thursday",
+    "href": "schedule.html#may-22nd-thursday",
+    "title": "Weekly Schedule",
+    "section": "May 22nd – Thursday",
+    "text": "May 22nd – Thursday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nGit, GitHub, Teams, Outlook Calendar, CyBox, and Blogs Setup\n\n\n\n8:00 – 10:00:\n\nCreate a GitHub Account and Join GitHub Education\nRead through What is Git? The Complete Guide to Git\nInstall and Set Up Git usernames locally\nComplete the Introduction to GitHub Lesson\nComplete the Review Pull Requests Lesson\nComplete the Resolve Merge Conflicts Lesson\nComplete the Communicate Using Markdown Lesson\nOther GitHub Skills to Explore\n\n10:00 – 10:30:\n\nGo over the Teams’ Channels\n\n10:30 – 12:00:\n\nIntroduction to GitHub Classrooms System\nIntroduction to Quarto and Positron\nQuarto Blogs Setup and Training\n\n12:00 – 1:00: Lunch Break\n1:00 – 4:00:\n\nTransforming First-Day Activity into a Quarto Blog Post"
+  },
+  {
+    "objectID": "schedule.html#may-23rd-friday",
+    "href": "schedule.html#may-23rd-friday",
+    "title": "Weekly Schedule",
+    "section": "May 23rd – Friday",
+    "text": "May 23rd – Friday\n\nLocation\n\nMarston 2200 (EVERY FRIDAY)\n\nDaily Goals\n\nBlog Student Introduction Presentations and DataCamp\n\n\n\n8:00 – 12:00:\n\nStudent Introduction Presentation Preparations\nDataCamp Training\n\nSelect either of the Introductory R or Python Track Assignments\n\n\n12:00 - 1:00: Lunch Break\n1:00 – 3:00: Student Introduction Presentations"
+  },
+  {
+    "objectID": "schedule.html#may-26th-monday",
+    "href": "schedule.html#may-26th-monday",
+    "title": "Weekly Schedule",
+    "section": "May 26th – Monday",
+    "text": "May 26th – Monday\n\nLocation\n\nEast Hall 311\n\n\nMemorial Day Break - No DSPG"
+  },
+  {
+    "objectID": "schedule.html#may-27th-tuesday",
+    "href": "schedule.html#may-27th-tuesday",
+    "title": "Weekly Schedule",
+    "section": "May 27th – Tuesday",
+    "text": "May 27th – Tuesday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nTidycensus Training\n\n\n\n8:00 - 12:00: Tidycensus Training Starts\n\nIntroduction: Read through the Topics below on Census Reporter\n\nGetting Started\nAbout the Census\nGeography\nLook through the Table Codes to get an idea of what’s available\nThe Census Subjects headings detail how each variable is collected and what tables are associated with those variables\n\nPractice in R: Read through the Designated Sections of the Analyzing US Census Data Book\n\nReview the material from the Preface up to Chapter 5: Census Geographic Data and Applications in R\n\n\n12:00 - 1:00: Lunch Break\n1:00 - 3:30: Tidycensus Training Continues\n\nRecent Materials: Review the Working with the 2023 ACS and Analyzing 2020 Decennial US Census Data in R presentations. There is a lot of overlap with the book, but you can click the hamburger icon on the bottom left to navigate the menu when its information you’ve already learned.\n\nYou may also want to view the recording of the 2023 ACS lecture or a recording of the Decennial Census with the slides if this is how you prefer following along.\n\nCensus Mapping: Go through the Doing ‘GIS’ and making maps with US Census data in R slides. You can use also access a recording of the mapping slides these materials for the upcoming Census Report assignment.\n\n3:30 - 4:00: Introduce the Census Report Assignment."
+  },
+  {
+    "objectID": "schedule.html#may-28th-wednesday",
+    "href": "schedule.html#may-28th-wednesday",
+    "title": "Weekly Schedule",
+    "section": "May 28th – Wednesday",
+    "text": "May 28th – Wednesday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nProject Assignments and Census Report assignment\n\n\n\n8:00 - 10:30: Complete Census Training Material\n\n10:30 - 12:00: Team Assignments and First Client Meetings\n12:00 - 1:00: Lunch Break\n1:00 - 4:00: : Census Report or Project Specific DataCamps"
+  },
+  {
+    "objectID": "schedule.html#may-29th---thursday",
+    "href": "schedule.html#may-29th---thursday",
+    "title": "Weekly Schedule",
+    "section": "May 29th - Thursday",
+    "text": "May 29th - Thursday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nProject Assignments and Census Report assignment\n\n\n\nAll Day: Census Report or Project Specific DataCamps"
+  },
+  {
+    "objectID": "schedule.html#may-30th---friday",
+    "href": "schedule.html#may-30th---friday",
+    "title": "Weekly Schedule",
+    "section": "May 30th - Friday",
+    "text": "May 30th - Friday\n\nLocation\n\nMarston 2200\n\nDaily Goals\n\nElizabeth Sloan - Social Inequalities in AI presentation\n\n\n\n8:00 - 11:00: Complete Census Reports\n11:00 - 12:00: Social Inequalities in AI presentation\n12:00 - 1:00: Lunch Break\n1:00 - 4:00: Census Report Presentations"
+  },
+  {
+    "objectID": "schedule.html#june-2nd---monday",
+    "href": "schedule.html#june-2nd---monday",
+    "title": "Weekly Schedule",
+    "section": "June 2nd - Monday",
+    "text": "June 2nd - Monday\n\nDaily Goals\n\nChris Seeger - Tableau Workshop & Sam Good - Responsible AI in Research presentation\n\n\n\n8:00 - 12:00: Tableau Workshop\n12:00 - 1:00: Lunch Break\n1:00 - 2:00: Responsible AI in Research presentation\nRest of Day: Begin Project Specific Work Continues"
+  },
+  {
+    "objectID": "schedule.html#june-3rd---tuesday",
+    "href": "schedule.html#june-3rd---tuesday",
+    "title": "Weekly Schedule",
+    "section": "June 3rd - Tuesday",
+    "text": "June 3rd - Tuesday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nData Wrangling Activity & Continue Project Work\n\n\n\n8:00 - 9:00: Data Wrangling Activity\n9:00 - 12:00: Project Members Meet with their Teams\n12:00 - 1:00: Lunch Break\n1:00 - 4:00: Project Specific Work Continues\nEnd of Day Journaling Starts (Every Tuesday & Thursday)"
+  },
+  {
+    "objectID": "schedule.html#june-4th---wednesday",
+    "href": "schedule.html#june-4th---wednesday",
+    "title": "Weekly Schedule",
+    "section": "June 4th - Wednesday",
+    "text": "June 4th - Wednesday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nContinue Project Work\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Continue Project Specific Work"
+  },
+  {
+    "objectID": "schedule.html#june-5th---thursday",
+    "href": "schedule.html#june-5th---thursday",
+    "title": "Weekly Schedule",
+    "section": "June 5th - Thursday",
+    "text": "June 5th - Thursday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nThao Nguyen - AI Hallucinations presentation in the morning\n\n\n\n8:00 - 11:00: Project Specific Work Continues\n11:00 - 12:00: AI Hallucinations Presentation\n12:00 - 1:00: Lunch Break\nRest of Day: Project Specific Work Continues"
+  },
+  {
+    "objectID": "schedule.html#june-6th---friday",
+    "href": "schedule.html#june-6th---friday",
+    "title": "Weekly Schedule",
+    "section": "June 6th - Friday",
+    "text": "June 6th - Friday\n\nLocation\n\nMarston 2200\n\nDaily Goals\n\nCreate First Weekly Team Blog\n\n\n\n8:00 - 10:00: Complete this Week’s Project Goals\n10:00 - 12:00: Student’s Create Weekly Team Blog\n12:00 - 1:00: Lunch Break\n1:00 - 3:00: Student’s Present Team Weekly Blog\n3:00 - 4:00: Review Feedback and Submit Final weekly Blog"
+  },
+  {
+    "objectID": "schedule.html#june-9th---monday",
+    "href": "schedule.html#june-9th---monday",
+    "title": "Weekly Schedule",
+    "section": "June 9th - Monday",
+    "text": "June 9th - Monday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nContinue Project Work & Grad Fellow Presentation\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Continue Project Specific Work"
+  },
+  {
+    "objectID": "schedule.html#june-10th---tuesday",
+    "href": "schedule.html#june-10th---tuesday",
+    "title": "Weekly Schedule",
+    "section": "June 10th - Tuesday",
+    "text": "June 10th - Tuesday\n\nLocation\n\nEast Hall 311\n\nDaily Goals\n\nGuest Speaker\n\n\n\n8:00 - 11:30: Continue Project Work\n11:30 - 12:30: Guest Speaker\n12:30 - 1:30: Lunch Break\n1:30 - 4:00: Continue Project Work"
+  },
+  {
+    "objectID": "schedule.html#june-11th---wednesday",
+    "href": "schedule.html#june-11th---wednesday",
+    "title": "Weekly Schedule",
+    "section": "June 11th - Wednesday",
+    "text": "June 11th - Wednesday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Data Wrangling Activity\nRest of Day: Continue Project Work"
+  },
+  {
+    "objectID": "schedule.html#june-12th---thursday",
+    "href": "schedule.html#june-12th---thursday",
+    "title": "Weekly Schedule",
+    "section": "June 12th - Thursday",
+    "text": "June 12th - Thursday\n\nLocation\n\nEast Hall 311\n\n\nGretta Buttelman - Machine Learning in Biology presentation\n\n8:00 - 9:00: Project Members Meet with their Teams\n1:00 - 2:00: Machine Learning in Biology presentation\nRest of Day: Continue Project Specific Work"
+  },
+  {
+    "objectID": "schedule.html#june-13th---friday",
+    "href": "schedule.html#june-13th---friday",
+    "title": "Weekly Schedule",
+    "section": "June 13th - Friday",
+    "text": "June 13th - Friday\n\nLocation\n\nMarston 2200\n\n\n\n8:00 - 10:00: Complete this Week’s Project Goals\n10:00 - 12:00: Student’s Create Weekly Team Blog\n12:00 - 1:00: Lunch Break\n1:00 - 3:00: Student’s Present Team Weekly Blog\n3:00 - 4:00: Review Feedback and Submit Final weekly Blog"
+  },
+  {
+    "objectID": "schedule.html#june-16th---monday",
+    "href": "schedule.html#june-16th---monday",
+    "title": "Weekly Schedule",
+    "section": "June 16th - Monday",
+    "text": "June 16th - Monday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Continue Project Specific Work"
+  },
+  {
+    "objectID": "schedule.html#june-17th---tuesday",
+    "href": "schedule.html#june-17th---tuesday",
+    "title": "Weekly Schedule",
+    "section": "June 17th - Tuesday",
+    "text": "June 17th - Tuesday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Continue Project Specific Work"
+  },
+  {
+    "objectID": "schedule.html#june-18th---wednesday",
+    "href": "schedule.html#june-18th---wednesday",
+    "title": "Weekly Schedule",
+    "section": "June 18th - Wednesday",
+    "text": "June 18th - Wednesday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Data Wrangling Activity\nRest of Day: Preparations for Midterm Presentations"
+  },
+  {
+    "objectID": "schedule.html#june-19th---thursday",
+    "href": "schedule.html#june-19th---thursday",
+    "title": "Weekly Schedule",
+    "section": "June 19th - Thursday",
+    "text": "June 19th - Thursday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Midterm Presentations & Continue Project Work"
+  },
+  {
+    "objectID": "schedule.html#june-20th---friday",
+    "href": "schedule.html#june-20th---friday",
+    "title": "Weekly Schedule",
+    "section": "June 20th - Friday",
+    "text": "June 20th - Friday\n\nLocation\n\nMarston 2200\n\n\n\n8:00 - 10:00: Complete this Week’s Project Goals\n10:00 - 12:00: Student’s Create Weekly Team Blog\n12:00 - 1:00: Lunch Break\n1:00 - 3:00: Student’s Present Team Weekly Blog\n3:00 - 4:00: Review Feedback and Submit Final weekly Blog"
+  },
+  {
+    "objectID": "schedule.html#june-23rd---monday",
+    "href": "schedule.html#june-23rd---monday",
+    "title": "Weekly Schedule",
+    "section": "June 23rd - Monday",
+    "text": "June 23rd - Monday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Continue Project Specific Work\nBegin One-On-One Meetings"
+  },
+  {
+    "objectID": "schedule.html#june-24th---tuesday",
+    "href": "schedule.html#june-24th---tuesday",
+    "title": "Weekly Schedule",
+    "section": "June 24th - Tuesday",
+    "text": "June 24th - Tuesday\n\nLocation\n\nEast Hall 311\n\n\nHannah Gates - LLMs for Resume Screening presentation\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Continue Project Specific Work\nContinue One-On-One Meetings"
+  },
+  {
+    "objectID": "schedule.html#june-25th---wednesday",
+    "href": "schedule.html#june-25th---wednesday",
+    "title": "Weekly Schedule",
+    "section": "June 25th - Wednesday",
+    "text": "June 25th - Wednesday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Data Wrangling Activity\nRest of Day: Continue Project Specific Work"
+  },
+  {
+    "objectID": "schedule.html#june-26th---thursday",
+    "href": "schedule.html#june-26th---thursday",
+    "title": "Weekly Schedule",
+    "section": "June 26th - Thursday",
+    "text": "June 26th - Thursday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Continue Project Specific Work"
+  },
+  {
+    "objectID": "schedule.html#june-27th---friday",
+    "href": "schedule.html#june-27th---friday",
+    "title": "Weekly Schedule",
+    "section": "June 27th - Friday",
+    "text": "June 27th - Friday\n\nLocation\n\nMarston 2200\n\n\n\n8:00 - 10:00: Complete this Week’s Project Goals\n10:00 - 12:00: Student’s Create Weekly Team Blog\n12:00 - 1:00: Lunch Break\n1:00 - 3:00: Student’s Present Team Weekly Blog\n3:00 - 4:00: Review Feedback and Submit Final weekly Blog"
+  },
+  {
+    "objectID": "schedule.html#june-30th---monday",
+    "href": "schedule.html#june-30th---monday",
+    "title": "Weekly Schedule",
+    "section": "June 30th - Monday",
+    "text": "June 30th - Monday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Continue Project Specific Work"
+  },
+  {
+    "objectID": "schedule.html#july-1st---tuesday",
+    "href": "schedule.html#july-1st---tuesday",
+    "title": "Weekly Schedule",
+    "section": "July 1st - Tuesday",
+    "text": "July 1st - Tuesday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Continue Project Specific Work"
+  },
+  {
+    "objectID": "schedule.html#july-2nd---wednesday",
+    "href": "schedule.html#july-2nd---wednesday",
+    "title": "Weekly Schedule",
+    "section": "July 2nd - Wednesday",
+    "text": "July 2nd - Wednesday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Data Wrangling Activity\nRest of Day: Continue Project Specific Work"
+  },
+  {
+    "objectID": "schedule.html#july-3rd---thursday",
+    "href": "schedule.html#july-3rd---thursday",
+    "title": "Weekly Schedule",
+    "section": "July 3rd - Thursday",
+    "text": "July 3rd - Thursday\n\nLocation\n\nEast Hall 311\n\n\nYing Weo - Structured Data Augmentation presentation\n\n8:00 - 12:00: Project Members Meet with their Teams\n12:00 - 1:00: Structured Data Augmentation presentation\n1:00 - 2:00: Lunch Break\nRest of Day: Continue Project Specific Work"
+  },
+  {
+    "objectID": "schedule.html#july-4th---friday",
+    "href": "schedule.html#july-4th---friday",
+    "title": "Weekly Schedule",
+    "section": "July 4th - Friday",
+    "text": "July 4th - Friday\nJuly 4th Independence Day - No DSPG"
+  },
+  {
+    "objectID": "schedule.html#july-7th---monday",
+    "href": "schedule.html#july-7th---monday",
+    "title": "Weekly Schedule",
+    "section": "July 7th - Monday",
+    "text": "July 7th - Monday\n\nLocation\n\nEast Hall 311\n\n\n\nAll Day: Continue Project Work"
+  },
+  {
+    "objectID": "schedule.html#july-8th---tuesday",
+    "href": "schedule.html#july-8th---tuesday",
+    "title": "Weekly Schedule",
+    "section": "July 8th - Tuesday",
+    "text": "July 8th - Tuesday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 11:00: Tableau Workshop by Christopher Seeger\nRest of Day: Continue Project Work"
+  },
+  {
+    "objectID": "schedule.html#july-9th---wednesday",
+    "href": "schedule.html#july-9th---wednesday",
+    "title": "Weekly Schedule",
+    "section": "July 9th - Wednesday",
+    "text": "July 9th - Wednesday\n\nLocation\n\nEast Hall 311\n\n\n\nAll Day: Continue Project Work"
+  },
+  {
+    "objectID": "schedule.html#july-10th---thursday",
+    "href": "schedule.html#july-10th---thursday",
+    "title": "Weekly Schedule",
+    "section": "July 10th - Thursday",
+    "text": "July 10th - Thursday\n\nAll Day: Continue Project Work"
+  },
+  {
+    "objectID": "schedule.html#july-11th---friday",
+    "href": "schedule.html#july-11th---friday",
+    "title": "Weekly Schedule",
+    "section": "July 11th - Friday",
+    "text": "July 11th - Friday\nThomas Young - Interpretable Deep Learning presentation\n\nAll Day: Continue Project Work -3:00 - 4:00: Interpretable Deep Learning"
+  },
+  {
+    "objectID": "schedule.html#july-14th---monday",
+    "href": "schedule.html#july-14th---monday",
+    "title": "Weekly Schedule",
+    "section": "July 14th - Monday",
+    "text": "July 14th - Monday\n\nLocation\n\nEast Hall 311\n\n\n\nAll Day: Continue Project Work"
+  },
+  {
+    "objectID": "schedule.html#july-15th---tuesday",
+    "href": "schedule.html#july-15th---tuesday",
+    "title": "Weekly Schedule",
+    "section": "July 15th - Tuesday",
+    "text": "July 15th - Tuesday\n\nLocation\n\nEast Hall 311\n\n\n\nAll Day: Continue Project Work"
+  },
+  {
+    "objectID": "schedule.html#july-16th---wednesday",
+    "href": "schedule.html#july-16th---wednesday",
+    "title": "Weekly Schedule",
+    "section": "July 16th - Wednesday",
+    "text": "July 16th - Wednesday\n\nLocation\n\nEast Hall 311\n\n\n\nAll Day: Continue Project Work"
+  },
+  {
+    "objectID": "schedule.html#july-17th---thursday",
+    "href": "schedule.html#july-17th---thursday",
+    "title": "Weekly Schedule",
+    "section": "July 17th - Thursday",
+    "text": "July 17th - Thursday\n\nLocation\n\nEast Hall 311\n\n\n\nAll Day: Continue Project Work"
+  },
+  {
+    "objectID": "schedule.html#july-18th---friday",
+    "href": "schedule.html#july-18th---friday",
+    "title": "Weekly Schedule",
+    "section": "July 18th - Friday",
+    "text": "July 18th - Friday\n\nLocation\n\nMarston 2200\n\n\n\n8:00 - 10:00: Complete this Week’s Project Goals\n10:00 - 12:00: Student’s Create Weekly Team Blog\n12:00 - 1:00: Lunch Break\n1:00 - 3:00: Student’s Present Team Weekly Blog\n3:00 - 4:00: Review Feedback and Submit Final weekly Blog"
+  },
+  {
+    "objectID": "schedule.html#july-21st---monday",
+    "href": "schedule.html#july-21st---monday",
+    "title": "Weekly Schedule",
+    "section": "July 21st - Monday",
+    "text": "July 21st - Monday\n\nLocation\n\nEast Hall 311\n\n\n\nAll Day: Continue Presentation Preparations"
+  },
+  {
+    "objectID": "schedule.html#july-22nd---tuesday",
+    "href": "schedule.html#july-22nd---tuesday",
+    "title": "Weekly Schedule",
+    "section": "July 22nd - Tuesday",
+    "text": "July 22nd - Tuesday\n\nLocation\n\nEast Hall 311\n\n\n\nMorning: Mock Presentations to Project Advisors\nAfternoon: Incorporate Feedback into Presentations"
+  },
+  {
+    "objectID": "schedule.html#july-23rd---wednesday",
+    "href": "schedule.html#july-23rd---wednesday",
+    "title": "Weekly Schedule",
+    "section": "July 23rd - Wednesday",
+    "text": "July 23rd - Wednesday\n\nLocation\n\nStudent Innovation Center 0114\n\n\nFinal Presentations\nPresentation Schedule\n\n9:15 - 9:30: Introduction to DSPG Presentations\n9:30 - 10:15: Presentation: Iowa STEM Inventory\n10:15 - 10:30: Session Q&A\n10:30 - 11:15: Presentation: Community Capitals\n11:15 - 11:30: Session Q&A\n11:30 - 11:40: Concluding Remarks"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-DuyD279/introduction.html",
+    "href": "studentBlogs/student-intro-DuyD279/introduction.html",
+    "title": "Duy’s Introduction",
+    "section": "",
+    "text": "Stock image of dog"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-DuyD279/introduction.html#interests",
+    "href": "studentBlogs/student-intro-DuyD279/introduction.html#interests",
+    "title": "Duy’s Introduction",
+    "section": "Interests",
+    "text": "Interests\nWhile I’ve mostly approached math as a tool to solve real-world problems through data-driven methods, I’ve found myself particularly drawn to linear algebra. My background in data analysis—through both coursework and personal projects—has shown me how powerful linear algebra can be for modeling and interpreting complex systems. I’m excited to deepen my understanding and apply these concepts more effectively"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-DuyD279/introduction.html#plans",
+    "href": "studentBlogs/student-intro-DuyD279/introduction.html#plans",
+    "title": "Duy’s Introduction",
+    "section": "Plans",
+    "text": "Plans\nMy plans right now is to do get into grad school for mathematics with a specialization in Free probability and von Neumann algebra."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-DuyD279/introduction.html#why-data-science",
+    "href": "studentBlogs/student-intro-DuyD279/introduction.html#why-data-science",
+    "title": "Duy’s Introduction",
+    "section": "Why data science?",
+    "text": "Why data science?\nEverything needs data, and not-so-good data would probably end up as not-so-good results. So personally, I want to understand data, what they mean, what can I do with it, how it can be manipulated so that we can use it correctly."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-DuyD279/introduction.html#prior-experiences",
+    "href": "studentBlogs/student-intro-DuyD279/introduction.html#prior-experiences",
+    "title": "Duy’s Introduction",
+    "section": "Prior experiences",
+    "text": "Prior experiences\nZero with data science, but I have worked with free probabilities which utilizes data and variables that are extracted from datasets."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-DuyD279/introduction.html#more-about-me",
+    "href": "studentBlogs/student-intro-DuyD279/introduction.html#more-about-me",
+    "title": "Duy’s Introduction",
+    "section": "More about me",
+    "text": "More about me\nOutside of academics, I used to do wrestling in high school and am currently working to get my purple belt in jiujitsu."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-DuyD279/introduction.html#fun-fact",
+    "href": "studentBlogs/student-intro-DuyD279/introduction.html#fun-fact",
+    "title": "Duy’s Introduction",
+    "section": "Fun fact",
+    "text": "Fun fact\nI usually go from 205lbs to 135lbs before all of my MMA competitions."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-DuyD279/introduction.html#personal-learning-objectives",
+    "href": "studentBlogs/student-intro-DuyD279/introduction.html#personal-learning-objectives",
+    "title": "Duy’s Introduction",
+    "section": "Personal Learning Objectives",
+    "text": "Personal Learning Objectives\nThe skill I value the most is resillience."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-DuyD279/introduction.html#skills-i-want-to-develop-during-dspg",
+    "href": "studentBlogs/student-intro-DuyD279/introduction.html#skills-i-want-to-develop-during-dspg",
+    "title": "Duy’s Introduction",
+    "section": "Skills I want to develop during DSPG",
+    "text": "Skills I want to develop during DSPG\n\nAdvanced data visualization techniques\nInterpreting datasets\nMathematical modelling"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-DuyD279/introduction.html#why-these-skills-matter",
+    "href": "studentBlogs/student-intro-DuyD279/introduction.html#why-these-skills-matter",
+    "title": "Duy’s Introduction",
+    "section": "Why these skills matter",
+    "text": "Why these skills matter\nThey are essential for turning data into actionable insights and for working effectively in teams."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-DuyD279/introduction.html#how-i-hope-to-improve",
+    "href": "studentBlogs/student-intro-DuyD279/introduction.html#how-i-hope-to-improve",
+    "title": "Duy’s Introduction",
+    "section": "How I hope to improve",
+    "text": "How I hope to improve\nBy working on real projects, seeking feedback from mentors and peers, and consistently practicing new techniques."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-J-Yass/introduction.html",
+    "href": "studentBlogs/student-intro-J-Yass/introduction.html",
+    "title": "Jorge’s Introduction",
+    "section": "",
+    "text": "Hello! My name is Jorge Yass, and you can call me Jorge. I am from Guatemala and was born in a beautiful small city called Antigua Guatemala:\n\n\n\nPicture by Chad Davis - https://www.flickr.com/photos/146321178@N05/49640785242/\n\n\nBefore coming to the US, I worked for 9 years as a software engineer at a financial institution, where I worked mainly with relational databases and C#. My background is in Information Systems and Cybersecurity.\n\nAcademic year and degree\nI am about to start my fourth year in a PhD in Human-Computer Interaction (HCI) and a co-major in Computer Engineering. My current research is about exploring students’ mental models of the Internet to identify misconceptions, to inform the design/implementation of video games to teach cybersecurity concepts.\nI chose my major because of the experiences I had as a software engineer. I realize that even when we met the functional requirements a client required, sometimes the client was unhappy or demotivated to use the software we built, and that is because our team focused on the technical specifications and not the most critical element of a system: the person.\n\n\nMy future plans\nI plan to return to my country and start a company focused on UX research! I also want to join the Academy.\n\n\nWhy I care about data science\nData Science is important because it supports the decision-making process. During my previous job, I noticed the importance of data and how it can be used to predict or classify things.\n\n\nPrevious experience in Data Science\n\nIn my previous job, I created a flow to extract information from SonnarQube, a static code vulnerability analysis tool. I took the analysis into a database and made a dashboard in PowerBI that my boss used to see our team’s top 10 vulnerabilities when coding. That helped us to look for specific training.\nI also worked on a project where I used a web-scrapping tool and created a linear model to predict the value of some assets based on the information collected from the web.\n\n\n\nFun facts\nI have two dogs, Franky and Bruno.\n\n\n\nPicture by me\n\n\nThis is Bruno coding in R Studio:\n\n\n\nPicture by me\n\n\nI also spend a lot of time playing chess (if you play chess, find me on Chess.com as JYassGt), playing video games, and reading.\n\n\nMy skills\nI can quickly learn new technical stuff, integrate data from many sources, and clean it.\n\n\nThe skills I want to learn\n\nGoing deep into my Python skills.\nLearn about using geographic visualization tools.\nLearn to use ArcGIS\n\nMastering Python skills is important for this project and my research, where I experiment with LLMs’ APIs. I also recognize maps’ value in presenting information and want to add to my tools arsenal.\nI hope to achieve my skill goals by a hands-on approach trough these 9 weeks."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-ekurkalova/introduction.html",
+    "href": "studentBlogs/student-intro-ekurkalova/introduction.html",
+    "title": "Ekaterina’s Introduction",
+    "section": "",
+    "text": "Me at ISU’s Admited Students Day"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-ekurkalova/introduction.html#a-little-bit-about-me",
+    "href": "studentBlogs/student-intro-ekurkalova/introduction.html#a-little-bit-about-me",
+    "title": "Ekaterina’s Introduction",
+    "section": "A little bit about me",
+    "text": "A little bit about me\nHi, my name is Ekaterina! I am from Illinois, but I briefly lived in Russia as a young child. I am currently a senior at Iowa State University majoring in Data Science and minoring in Russian Studies.\n\nMy hobbies and interests\nIn my freetime I like to:\n\nGo on walks\nWatch anime\nListen to music\nPlay D&D\nPlay videogames\nBake"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-ekurkalova/introduction.html#why-data-science",
+    "href": "studentBlogs/student-intro-ekurkalova/introduction.html#why-data-science",
+    "title": "Ekaterina’s Introduction",
+    "section": "Why Data Science?",
+    "text": "Why Data Science?\nAs a high schooler trying to figure out what to do with their life, I contemplated the list of majors I could pursue. I had never heard of data science before. When I googled it, I saw a world of possibiliies open up before me. In today’s world there is data on everything and it’s used in every industry. I was particularly intrigued by data science as a tool in government. Passionate about helping the government make informed decisions and helping people, I chose to pursue DS!\n\nWhy Russian Studies?\nInitially, I never planned to take Russian course at ISU. After trying out the film studies class as an elective I decided to pursue a minor in Russian studies. It would help me connect to my culture and hone my language skills. More than that, Russian is a critical language with importance in global affairs. As someone who wants to work in the government, knowing the language and culture of a politically significant nation felt natural."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-ekurkalova/introduction.html#at-data-science-for-the-public-good",
+    "href": "studentBlogs/student-intro-ekurkalova/introduction.html#at-data-science-for-the-public-good",
+    "title": "Ekaterina’s Introduction",
+    "section": "At Data Science for the Public Good",
+    "text": "At Data Science for the Public Good\n\nWhat I knew going in:\n\nThe languages I have used before: R, Python, Java\nData visualization using ggplot2 or matplotlib\nBasic data analysis using dplyr or pandas\nSome machine learning models (kNN, Regression, Naive Bayes, etc.)\n\n\n\nWhat I hope to know coming out:\n\nHow to use a dashboarding software (like Tableau)\nThe process of working on a long-term project\nHow to work with stakeholders in mind\nHow to be a Python whiz\nThe basics of SQL\n\n\n\nWhat I will do to achieve this:\n\nI plan to utilize DataCamp to the fullest\nWatch some nerdy YouTube videos\nConnect with my mentor at Casey’s\nWork diligently on my project for the next 9 weeks\n\n\n\nOne last fun fact about me\nI play clarinet and saxophone (for jazz). Over the course of my life I have at least tried playing piano, flute, guitar, Bb/bass/contrabass clarinet, alto/tenor sax, and the recorder."
+  },
+  {
+    "objectID": "studentBlogs/student-intro-ekurkalova/introduction.html#connect-with-me",
+    "href": "studentBlogs/student-intro-ekurkalova/introduction.html#connect-with-me",
+    "title": "Ekaterina’s Introduction",
+    "section": "Connect with me!",
+    "text": "Connect with me!\n\nLinkedIn\nGitHub"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-rishita250/introduction.html#areas-for-growth",
+    "href": "studentBlogs/student-intro-rishita250/introduction.html#areas-for-growth",
+    "title": "Rishita’s Introduction",
+    "section": "Areas for Growth",
+    "text": "Areas for Growth\n\nEnhancing creativity and problem-solving approaches\nImproving time management and efficiency\nGaining hands-on experience with data science tools and workflows\nLearning R, a language I have not used before and am excited to explore this summer"
+  },
+  {
+    "objectID": "studentBlogs/student-intro-rishita250/introduction.html#my-goals",
+    "href": "studentBlogs/student-intro-rishita250/introduction.html#my-goals",
+    "title": "Rishita’s Introduction",
+    "section": "My Goals",
+    "text": "My Goals\nMy long-term goal is to pursue research at the intersection of technology and the natural sciences, particularly physics and chemistry, to address global challenges like those outlined in the UN’s 17 Sustainable Development Goals. The DSPG program is an ideal environment to grow toward this path — giving me the opportunity to work on socially relevant projects, collaborate with peers, and build a strong foundation in data science."
+  }
+]
