@@ -1,0 +1,90 @@
+/* General Layout */
+body {
+  font-family: "Futura", "Helvetica Neue", sans-serif;
+  background-color: #fff;
+  color: #111;
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 1rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border-bottom: 4px solid #111;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: rgb(245, 156, 1);
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #0072ce; /* Primary blue */
+}
+
+p,
+li {
+  font-size: 1.1rem;
+}
+
+/* Links */
+a {
+  color: #f2b705; /* Primary yellow */
+  text-decoration: none;
+  border-bottom: 2px solid #f2b705;
+}
+
+a:hover {
+  background-color: #f2b705;
+  color: #000;
+}
+
+/* Image Styling */
+img {
+  max-width: 100%;
+  border: 5px solid #000;
+  display: block;
+  margin: 2rem auto;
+}
+
+/* Lists */
+ul {
+  list-style: square inside;
+}
+
+/* Code blocks or special notes */
+code,
+pre {
+  background-color: #eee;
+  padding: 0.4rem 0.6rem;
+  border-left: 4px solid #000;
+  font-family: "Courier New", monospace;
+}
+
+/* Section blocks */
+section {
+  border-left: 6px solid #111;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Special Quotes or Highlights */
+blockquote {
+  border-left: 5px solid #0072ce;
+  margin-left: 0;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #333;
+}

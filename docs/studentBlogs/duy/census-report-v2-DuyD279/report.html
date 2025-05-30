@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Duy Doan">
+<meta name="dcterms.date" content="2025-05-30">
+
+<title>Correlation between income and housing characteristics in Iowa from 2005-2023 – DSPG 2025</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-7d2c86ec746ae6be51f284a0b8a4206b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../../site_libs/plotly-binding-4.10.4/plotly.js"></script>
+<script src="../../../site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="../../../site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="../../../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="../../../site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="../../../site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">DSPG 2025</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../allBlogs.html"> 
+<span class="menu-text">Project Blogs</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-student-blogs" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Student Blogs</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-student-blogs">    
+        <li>
+    <a class="dropdown-item" href="../../../participants.html">
+ <span class="dropdown-text">All Participants</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../studentBlogs/harun.html">
+ <span class="dropdown-text">Harun Celik</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../studentBlogs/jorge.html">
+ <span class="dropdown-text">Jorge Yass</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../studentBlogs/meenakshi.html">
+ <span class="dropdown-text">Meenakshi</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../studentBlogs/aparneesh.html">
+ <span class="dropdown-text">Aparneesh Patil</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../studentBlogs/duy.html">
+ <span class="dropdown-text">Duy Doan</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../studentBlogs/madison.html">
+ <span class="dropdown-text">Madison Herdlicka</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../studentBlogs/tanisha.html">
+ <span class="dropdown-text">Tanisha Magikar</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../studentBlogs/rishita.html">
+ <span class="dropdown-text">Rishita Kollu</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../studentBlogs/kat.html">
+ <span class="dropdown-text">Ekaterina Kurkalova</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../schedule.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../activities.html"> 
+<span class="menu-text">Activities</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../resources.html" target="_blank"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/DSPG-2025"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a>
+  <ul class="collapse">
+  <li><a href="#household-income-growth-compared-to-housing-prices-in-iowa-2005-2023" id="toc-household-income-growth-compared-to-housing-prices-in-iowa-2005-2023" class="nav-link" data-scroll-target="#household-income-growth-compared-to-housing-prices-in-iowa-2005-2023">Household income growth compared to housing prices in Iowa 2005-2023</a></li>
+  <li><a href="#house-ownership-rate" id="toc-house-ownership-rate" class="nav-link" data-scroll-target="#house-ownership-rate">House ownership rate</a></li>
+  <li><a href="#percentage-of-income-spent-on-housing" id="toc-percentage-of-income-spent-on-housing" class="nav-link" data-scroll-target="#percentage-of-income-spent-on-housing">Percentage of income spent on housing</a></li>
+  <li><a href="#mortgage-rates-for-the-country-from-1971-2025" id="toc-mortgage-rates-for-the-country-from-1971-2025" class="nav-link" data-scroll-target="#mortgage-rates-for-the-country-from-1971-2025">Mortgage rates for the country from 1971-2025</a></li>
+  <li><a href="#comparison-with-similar-states-and-bigger-states" id="toc-comparison-with-similar-states-and-bigger-states" class="nav-link" data-scroll-target="#comparison-with-similar-states-and-bigger-states">Comparison with similar states and bigger states</a></li>
+  <li><a href="#what-caused-the-market-dips-in-big-states" id="toc-what-caused-the-market-dips-in-big-states" class="nav-link" data-scroll-target="#what-caused-the-market-dips-in-big-states">What caused the market dips in big states?</a></li>
+  <li><a href="#why-is-iowa-so-stable" id="toc-why-is-iowa-so-stable" class="nav-link" data-scroll-target="#why-is-iowa-so-stable">Why is Iowa so stable?</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Correlation between income and housing characteristics in Iowa from 2005-2023</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Duy Doan </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 30, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="background" class="level1">
+<h1>Background</h1>
+<p>Housing affordability has become an increasingly pressing issue across the United States, with Iowa being no exception. As median home values continue to rise, understanding the relationship between household income and housing characteristics is very important.</p>
+<p>This report examines the correlation between income and housing characteristics in Iowa from 2005 to 2023, spanning nearly two decades of economic changes including the 2008 financial crisis, its recovery, and 2020-2021 COVID Pandemic. By analyzing American Community Survey (ACS) data, we investigate how the percentage of income spent on housing has evolved over time and explore the relationship between personal earnings and housing payments.</p>
+<p>The analysis focuses on five key research questions:</p>
+<ol class="example" type="1">
+<li>How has the percentage of household income spent on housing costs changed in Iowa from 2005 to 2023?</li>
+<li>The changes in income compared to the median cost of a house</li>
+<li>Ownership vs rent from 2005-2023</li>
+<li>How do mortgage rates affect house ownership</li>
+<li>How have major events affected the housing situation in Iowa</li>
+</ol>
+<p>Understanding these trends is essential for assessing housing affordability and identifying potential policy interventions to support Iowa residents in accessing affordable housing options.</p>
+<section id="household-income-growth-compared-to-housing-prices-in-iowa-2005-2023" class="level2">
+<h2 class="anchored" data-anchor-id="household-income-growth-compared-to-housing-prices-in-iowa-2005-2023">Household income growth compared to housing prices in Iowa 2005-2023</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>df_long <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/median_income_house_prices.csv"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>years <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">2005</span><span class="sc">:</span><span class="dv">2019</span>, <span class="dv">2021</span>, <span class="dv">2022</span>, <span class="dv">2023</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_long, <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> value, <span class="at">color =</span> variable)) <span class="sc">+</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="fl">1.2</span>) <span class="sc">+</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> years) <span class="sc">+</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> comma) <span class="sc">+</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Progression of Median House Prices and Income in Iowa (2005–2023)"</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"USD"</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"Variable"</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="report_files/figure-html/unnamed-chunk-2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="report_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="960"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Household income from 2005 to 2023 compared to the median house price has not kept pace with the increase in housing costs. While median household income has grown steadily over this period, median house prices have increased at a much faster rate. This is particularly evident after 2012, where house prices show exponential growth while income growth remains relatively linear. By just looking at this, we can make the <span class="math inline">\(H_0\)</span> that houses are becoming less and less affordable.</p>
+</section>
+<section id="house-ownership-rate" class="level2">
+<h2 class="anchored" data-anchor-id="house-ownership-rate">House ownership rate</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df_housing <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/owner_vs_renter_occupied.csv"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>years <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">2005</span><span class="sc">:</span><span class="dv">2019</span>, <span class="dv">2021</span>, <span class="dv">2022</span>, <span class="dv">2023</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_housing, <span class="fu">aes</span>(<span class="at">x =</span> year)) <span class="sc">+</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> percent_owner_occupied, <span class="at">color =</span> <span class="st">"Owner Occupied"</span>), <span class="at">linewidth =</span> <span class="fl">1.2</span>) <span class="sc">+</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> percent_renter_occupied, <span class="at">color =</span> <span class="st">"Renter Occupied"</span>), <span class="at">linewidth =</span> <span class="fl">1.2</span>) <span class="sc">+</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> years) <span class="sc">+</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span><span class="fu">percent_format</span>(<span class="at">scale =</span> <span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Percentage of Owner vs Renter Occupied Housing Units in Iowa (2005–2023)"</span>,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Percentage"</span>,</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"Housing Type"</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="report_files/figure-html/unnamed-chunk-3-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="report_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="960"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>As we can see, the housing ownership rate in Iowa has remained very stable throughout the 2005-2023 period. Despite the 2008 crisis and the COVID-19 pandemic, the percentage of owner-occupied housing units has consistently been around the 70s, while renter-occupied units have been hovering at the mid-to-high 20s. This stability suggests that major economic disruptions had minimal impact on Iowa’s overall housing trend.</p>
+<p>The trend is further supported by research showing that Iowa has a high percentage of homeownership compared to other Midwest states and the national average, with relatively low housing costs and a low percentage of cost-burdened households <span class="citation" data-cites="iowa_housing_overview">(<a href="#ref-iowa_housing_overview" role="doc-biblioref">Iowa Finance Authority, n.d.</a>)</span>.</p>
+<p>This would seem to contradict our initial hypothesis (<span class="math inline">\(H_0\)</span>) that houses are becoming less affordable. If housing ownership rates remain stable despite rising prices, what factors might explain this apparent contradiction and the sustained homeownership levels in Iowa?</p>
+</section>
+<section id="percentage-of-income-spent-on-housing" class="level2">
+<h2 class="anchored" data-anchor-id="percentage-of-income-spent-on-housing">Percentage of income spent on housing</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>ms_3 <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/own_or_rent_by_age_2023.csv"</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(ms_3, <span class="fu">aes</span>(<span class="at">x =</span> amount, <span class="at">fill =</span> payment_type)) <span class="sc">+</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">position =</span> <span class="st">"identity"</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>, <span class="at">bins =</span> <span class="dv">30</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> age_group) <span class="sc">+</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>comma) <span class="sc">+</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Distribution by Age Group and Housing Type (IA, 2023 ACS 1-Year PUMS)"</span>,</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Count"</span>,</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Housing Type"</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="report_files/figure-html/unnamed-chunk-4-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="report_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="960"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>In 2023, it is evident that most people in Iowa own homes rather than rent, even among younger age groups. Ownership rates have hovered around 70% from 2005 to 2023, with little change during both the Great Recession and the COVID pandemic.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df_long1 <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/percent_income_spent_on_mortgage.csv"</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_long1, <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> percent_income_spent)) <span class="sc">+</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="fl">1.2</span>) <span class="sc">+</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> years) <span class="sc">+</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span><span class="fu">percent_format</span>(<span class="at">scale =</span> <span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Percentage of Income Spent on Mortgage in Iowa (2005–2023)"</span>,</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Percentage of Income Spent on Mortgage"</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="report_files/figure-html/unnamed-chunk-5-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="report_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="960"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>As we can see from the data above, it is evident that people are spending less and less of their income on housing over time. This trend suggests that the growth of household income is matching or even exceeding the total cost of owning a home in Iowa. But in the previous sections, it was shown that house prices increased exponentially more than the median household income. This presents a contradiction in our analysis. So what might be the factor that correlates with Iowa’s stable house ownership rate?</p>
+</section>
+<section id="mortgage-rates-for-the-country-from-1971-2025" class="level2">
+<h2 class="anchored" data-anchor-id="mortgage-rates-for-the-country-from-1971-2025">Mortgage rates for the country from 1971-2025</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>mortgage_rate <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/30-year-fixed-mortgage-rate-chart.csv"</span>, <span class="at">skip =</span> <span class="dv">13</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>mortgage_rate<span class="sc">$</span>date <span class="ot">&lt;-</span> <span class="fu">as.Date</span>(mortgage_rate<span class="sc">$</span>date)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_ly</span>(mortgage_rate, <span class="at">x =</span> <span class="sc">~</span>date, <span class="at">y =</span> <span class="sc">~</span>value, <span class="at">type =</span> <span class="st">'scatter'</span>, <span class="at">mode =</span> <span class="st">'lines'</span>,</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>         <span class="at">name =</span> <span class="st">'Mortgage Rate'</span>, <span class="at">line =</span> <span class="fu">list</span>(<span class="at">color =</span> <span class="st">'#1f77b4'</span>, <span class="at">width =</span> <span class="dv">2</span>),</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>         <span class="at">width =</span> <span class="dv">1300</span>, <span class="at">height =</span> <span class="dv">700</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">layout</span>(<span class="at">title =</span> <span class="fu">list</span>(<span class="at">text =</span> <span class="st">'National 30-Year Fixed Mortgage Rate (1971-2025)'</span>, </span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>                      <span class="at">font =</span> <span class="fu">list</span>(<span class="at">size =</span> <span class="dv">18</span>)),</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>         <span class="at">plot_bgcolor =</span> <span class="st">'#f8f9fa'</span>,  </span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>         <span class="at">xaxis =</span> <span class="fu">list</span>(  </span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>           <span class="at">title =</span> <span class="st">'Year'</span>,</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>           <span class="at">showgrid =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>           <span class="at">gridcolor =</span> <span class="st">'#e0e0e0'</span>,</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>           <span class="at">zeroline =</span> <span class="cn">FALSE</span>),  </span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>         <span class="at">yaxis =</span> <span class="fu">list</span>(  </span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>           <span class="at">title =</span> <span class="st">'Rate (%)'</span>,</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>           <span class="at">showgrid =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>           <span class="at">gridcolor =</span> <span class="st">'#e0e0e0'</span>,</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>           <span class="at">zeroline =</span> <span class="cn">FALSE</span>),</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>         <span class="at">showlegend =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>         <span class="at">hovermode =</span> <span class="st">'x unified'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="htmlwidget-daf4fb901944a1fd6c5e" style="width:100%;height:350px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-daf4fb901944a1fd6c5e">{"x":{"visdat":{"c535b5ab877":["function () ","plotlyVisDat"]},"cur_data":"c535b5ab877","attrs":{"c535b5ab877":{"x":{},"y":{},"mode":"lines","line":{"color":"#1f77b4","width":2},"name":"Mortgage Rate","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"}},"layout":{"width":1300,"height":700,"margin":{"b":40,"l":60,"t":25,"r":10},"title":{"text":"National 30-Year Fixed Mortgage Rate (1971-2025)","font":{"size":18}},"plot_bgcolor":"#f8f9fa","xaxis":{"domain":[0,1],"automargin":true,"title":"Year","showgrid":true,"gridcolor":"#e0e0e0","zeroline":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"Rate (%)","showgrid":true,"gridcolor":"#e0e0e0","zeroline":false},"showlegend":true,"hovermode":"x unified"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["1971-04-01","1971-05-01","1971-06-01","1971-07-01","1971-08-01","1971-09-01","1971-10-01","1971-11-01","1971-12-01","1972-01-01","1972-02-01","1972-03-01","1972-04-01","1972-05-01","1972-06-01","1972-07-01","1972-08-01","1972-09-01","1972-10-01","1972-11-01","1972-12-01","1973-01-01","1973-02-01","1973-03-01","1973-04-01","1973-05-01","1973-06-01","1973-07-01","1973-08-01","1973-09-01","1973-10-01","1973-11-01","1973-12-01","1974-01-01","1974-02-01","1974-03-01","1974-04-01","1974-05-01","1974-06-01","1974-07-01","1974-08-01","1974-09-01","1974-10-01","1974-11-01","1974-12-01","1975-01-01","1975-02-01","1975-03-01","1975-04-01","1975-05-01","1975-06-01","1975-07-01","1975-08-01","1975-09-01","1975-10-01","1975-11-01","1975-12-01","1976-01-01","1976-02-01","1976-03-01","1976-04-01","1976-05-01","1976-06-01","1976-07-01","1976-08-01","1976-09-01","1976-10-01","1976-11-01","1976-12-01","1977-01-01","1977-02-01","1977-03-01","1977-04-01","1977-05-01","1977-06-01","1977-07-01","1977-08-01","1977-09-01","1977-10-01","1977-11-01","1977-12-01","1978-01-01","1978-02-01","1978-03-01","1978-04-01","1978-05-01","1978-06-01","1978-07-01","1978-08-01","1978-09-01","1978-10-01","1978-11-01","1978-12-01","1979-01-01","1979-02-01","1979-03-01","1979-04-01","1979-05-01","1979-06-01","1979-07-01","1979-08-01","1979-09-01","1979-10-01","1979-11-01","1979-12-01","1980-01-01","1980-02-01","1980-03-01","1980-04-01","1980-05-01","1980-06-01","1980-07-01","1980-08-01","1980-09-01","1980-10-01","1980-11-01","1980-12-01","1981-01-01","1981-02-01","1981-03-01","1981-04-01","1981-05-01","1981-06-01","1981-07-01","1981-08-01","1981-09-01","1981-10-01","1981-11-01","1981-12-01","1982-01-01","1982-02-01","1982-03-01","1982-04-01","1982-05-01","1982-06-01","1982-07-01","1982-08-01","1982-09-01","1982-10-01","1982-11-01","1982-12-01","1983-01-01","1983-02-01","1983-03-01","1983-04-01","1983-05-01","1983-06-01","1983-07-01","1983-08-01","1983-09-01","1983-10-01","1983-11-01","1983-12-01","1984-01-01","1984-02-01","1984-03-01","1984-04-01","1984-05-01","1984-06-01","1984-07-01","1984-08-01","1984-09-01","1984-10-01","1984-11-01","1984-12-01","1985-01-01","1985-02-01","1985-03-01","1985-04-01","1985-05-01","1985-06-01","1985-07-01","1985-08-01","1985-09-01","1985-10-01","1985-11-01","1985-12-01","1986-01-01","1986-02-01","1986-03-01","1986-04-01","1986-05-01","1986-06-01","1986-07-01","1986-08-01","1986-09-01","1986-10-01","1986-11-01","1986-12-01","1987-01-01","1987-02-01","1987-03-01","1987-04-01","1987-05-01","1987-06-01","1987-07-01","1987-08-01","1987-09-01","1987-10-01","1987-11-01","1987-12-01","1988-01-01","1988-02-01","1988-03-01","1988-04-01","1988-05-01","1988-06-01","1988-07-01","1988-08-01","1988-09-01","1988-10-01","1988-11-01","1988-12-01","1989-01-01","1989-02-01","1989-03-01","1989-04-01","1989-05-01","1989-06-01","1989-07-01","1989-08-01","1989-09-01","1989-10-01","1989-11-01","1989-12-01","1990-01-01","1990-02-01","1990-03-01","1990-04-01","1990-05-01","1990-06-01","1990-07-01","1990-08-01","1990-09-01","1990-10-01","1990-11-01","1990-12-01","1991-01-01","1991-02-01","1991-03-01","1991-04-01","1991-05-01","1991-06-01","1991-07-01","1991-08-01","1991-09-01","1991-10-01","1991-11-01","1991-12-01","1992-01-01","1992-02-01","1992-03-01","1992-04-01","1992-05-01","1992-06-01","1992-07-01","1992-08-01","1992-09-01","1992-10-01","1992-11-01","1992-12-01","1993-01-01","1993-02-01","1993-03-01","1993-04-01","1993-05-01","1993-06-01","1993-07-01","1993-08-01","1993-09-01","1993-10-01","1993-11-01","1993-12-01","1994-01-01","1994-02-01","1994-03-01","1994-04-01","1994-05-01","1994-06-01","1994-07-01","1994-08-01","1994-09-01","1994-10-01","1994-11-01","1994-12-01","1995-01-01","1995-02-01","1995-03-01","1995-04-01","1995-05-01","1995-06-01","1995-07-01","1995-08-01","1995-09-01","1995-10-01","1995-11-01","1995-12-01","1996-01-01","1996-02-01","1996-03-01","1996-04-01","1996-05-01","1996-06-01","1996-07-01","1996-08-01","1996-09-01","1996-10-01","1996-11-01","1996-12-01","1997-01-01","1997-02-01","1997-03-01","1997-04-01","1997-05-01","1997-06-01","1997-07-01","1997-08-01","1997-09-01","1997-10-01","1997-11-01","1997-12-01","1998-01-01","1998-02-01","1998-03-01","1998-04-01","1998-05-01","1998-06-01","1998-07-01","1998-08-01","1998-09-01","1998-10-01","1998-11-01","1998-12-01","1999-01-01","1999-02-01","1999-03-01","1999-04-01","1999-05-01","1999-06-01","1999-07-01","1999-08-01","1999-09-01","1999-10-01","1999-11-01","1999-12-01","2000-01-01","2000-02-01","2000-03-01","2000-04-01","2000-05-01","2000-06-01","2000-07-01","2000-08-01","2000-09-01","2000-10-01","2000-11-01","2000-12-01","2001-01-01","2001-02-01","2001-03-01","2001-04-01","2001-05-01","2001-06-01","2001-07-01","2001-08-01","2001-09-01","2001-10-01","2001-11-01","2001-12-01","2002-01-01","2002-02-01","2002-03-01","2002-04-01","2002-05-01","2002-06-01","2002-07-01","2002-08-01","2002-09-01","2002-10-01","2002-11-01","2002-12-01","2003-01-01","2003-02-01","2003-03-01","2003-04-01","2003-05-01","2003-06-01","2003-07-01","2003-08-01","2003-09-01","2003-10-01","2003-11-01","2003-12-01","2004-01-01","2004-02-01","2004-03-01","2004-04-01","2004-05-01","2004-06-01","2004-07-01","2004-08-01","2004-09-01","2004-10-01","2004-11-01","2004-12-01","2005-01-01","2005-02-01","2005-03-01","2005-04-01","2005-05-01","2005-06-01","2005-07-01","2005-08-01","2005-09-01","2005-10-01","2005-11-01","2005-12-01","2006-01-01","2006-02-01","2006-03-01","2006-04-01","2006-05-01","2006-06-01","2006-07-01","2006-08-01","2006-09-01","2006-10-01","2006-11-01","2006-12-01","2007-01-01","2007-02-01","2007-03-01","2007-04-01","2007-05-01","2007-06-01","2007-07-01","2007-08-01","2007-09-01","2007-10-01","2007-11-01","2007-12-01","2008-01-01","2008-02-01","2008-03-01","2008-04-01","2008-05-01","2008-06-01","2008-07-01","2008-08-01","2008-09-01","2008-10-01","2008-11-01","2008-12-01","2009-01-01","2009-02-01","2009-03-01","2009-04-01","2009-05-01","2009-06-01","2009-07-01","2009-08-01","2009-09-01","2009-10-01","2009-11-01","2009-12-01","2010-01-01","2010-02-01","2010-03-01","2010-04-01","2010-05-01","2010-06-01","2010-07-01","2010-08-01","2010-09-01","2010-10-01","2010-11-01","2010-12-01","2011-01-01","2011-02-01","2011-03-01","2011-04-01","2011-05-01","2011-06-01","2011-07-01","2011-08-01","2011-09-01","2011-10-01","2011-11-01","2011-12-01","2012-01-01","2012-02-01","2012-03-01","2012-04-01","2012-05-01","2012-06-01","2012-07-01","2012-08-01","2012-09-01","2012-10-01","2012-11-01","2012-12-01","2013-01-01","2013-02-01","2013-03-01","2013-04-01","2013-05-01","2013-06-01","2013-07-01","2013-08-01","2013-09-01","2013-10-01","2013-11-01","2013-12-01","2014-01-01","2014-02-01","2014-03-01","2014-04-01","2014-05-01","2014-06-01","2014-07-01","2014-08-01","2014-09-01","2014-10-01","2014-11-01","2014-12-01","2015-01-01","2015-02-01","2015-03-01","2015-04-01","2015-05-01","2015-06-01","2015-07-01","2015-08-01","2015-09-01","2015-10-01","2015-11-01","2015-12-01","2016-01-01","2016-02-01","2016-03-01","2016-04-01","2016-05-01","2016-06-01","2016-07-01","2016-08-01","2016-09-01","2016-10-01","2016-11-01","2016-12-01","2017-01-01","2017-02-01","2017-03-01","2017-04-01","2017-05-01","2017-06-01","2017-07-01","2017-08-01","2017-09-01","2017-10-01","2017-11-01","2017-12-01","2018-01-01","2018-02-01","2018-03-01","2018-04-01","2018-05-01","2018-06-01","2018-07-01","2018-08-01","2018-09-01","2018-10-01","2018-11-01","2018-12-01","2019-01-01","2019-02-01","2019-03-01","2019-04-01","2019-05-01","2019-06-01","2019-07-01","2019-08-01","2019-09-01","2019-10-01","2019-11-01","2019-12-01","2020-01-01","2020-02-01","2020-03-01","2020-04-01","2020-05-01","2020-06-01","2020-07-01","2020-08-01","2020-09-01","2020-10-01","2020-11-01","2020-12-01","2021-01-01","2021-02-01","2021-03-01","2021-04-01","2021-05-01","2021-06-01","2021-07-01","2021-08-01","2021-09-01","2021-10-01","2021-11-01","2021-12-01","2022-01-01","2022-02-01","2022-03-01","2022-04-01","2022-05-01","2022-06-01","2022-07-01","2022-08-01","2022-09-01","2022-10-01","2022-11-01","2022-12-01","2023-01-01","2023-02-01","2023-03-01","2023-04-01","2023-05-01","2023-06-01","2023-07-01","2023-08-01","2023-09-01","2023-10-01","2023-11-01","2023-12-01","2024-01-01","2024-02-01","2024-03-01","2024-04-01","2024-05-01","2024-06-01","2024-07-01","2024-08-01","2024-09-01","2024-10-01","2024-11-01","2024-12-01","2025-01-01","2025-02-01","2025-03-01","2025-04-01","2025-05-01"],"y":[7.29,7.46,7.54,7.6900000000000004,7.6900000000000004,7.6699999999999999,7.6299999999999999,7.5099999999999998,7.4800000000000004,7.4000000000000004,7.3099999999999996,7.2300000000000004,7.3300000000000001,7.4000000000000004,7.3799999999999999,7.4000000000000004,7.4199999999999999,7.4299999999999997,7.4199999999999999,7.4400000000000004,7.4500000000000002,7.4299999999999997,7.4500000000000002,7.4900000000000002,7.5599999999999996,7.7000000000000002,7.7599999999999998,8.1799999999999997,8.6600000000000001,8.8499999999999996,8.6799999999999997,8.5500000000000007,8.5600000000000005,8.5199999999999996,8.4199999999999999,8.4100000000000001,8.7300000000000004,9.0299999999999994,9.0999999999999996,9.4199999999999999,9.7400000000000002,10.029999999999999,9.9399999999999995,9.7200000000000006,9.5600000000000005,9.2899999999999991,9.0199999999999996,8.8599999999999994,8.8399999999999999,8.8900000000000006,8.9000000000000004,8.8900000000000006,9.0199999999999996,9.1400000000000006,9.2400000000000002,9.1099999999999994,9.0899999999999999,8.9000000000000004,8.75,8.75,8.75,8.7799999999999994,8.9000000000000004,8.9800000000000004,9,8.9700000000000006,8.9000000000000004,8.8000000000000007,8.7799999999999994,8.7300000000000004,8.6500000000000004,8.6999999999999993,8.7799999999999994,8.8499999999999996,8.8800000000000008,8.9299999999999997,8.9299999999999997,8.9000000000000004,8.9000000000000004,8.9299999999999997,9,9.0500000000000007,9.1500000000000004,9.25,9.4299999999999997,9.6799999999999997,9.7300000000000004,9.75,9.8000000000000007,9.7799999999999994,9.8800000000000008,10.279999999999999,10.380000000000001,10.4,10.4,10.449999999999999,10.529999999999999,10.75,11.1,11.08,11.130000000000001,11.35,12,12.9,12.9,12.890000000000001,13.59,16.030000000000001,16.25,13.199999999999999,12.35,12.18,12.949999999999999,13.43,14,14.279999999999999,14.949999999999999,15.07,15.300000000000001,15.4,15.77,16.800000000000001,16.620000000000001,17.109999999999999,17.48,18.359999999999999,18.440000000000001,17.210000000000001,17.039999999999999,17.59,17.52,17.039999999999999,16.809999999999999,16.629999999999999,16.73,16.649999999999999,15.880000000000001,15.19,14.15,13.77,13.57,13.1,12.98,12.859999999999999,12.73,12.68,12.960000000000001,13.65,13.779999999999999,13.65,13.43,13.43,13.43,13.289999999999999,13.25,13.550000000000001,13.73,14.08,14.5,14.67,14.380000000000001,14.26,14.050000000000001,13.42,13.140000000000001,12.960000000000001,12.94,13.289999999999999,13.119999999999999,12.710000000000001,12.15,12.029999999999999,12.109999999999999,12.17,12.07,11.58,11.09,10.890000000000001,10.51,10.1,9.8599999999999994,10.380000000000001,10.619999999999999,10.4,9.9299999999999997,10.1,9.8900000000000006,9.5,9.2899999999999991,9.0800000000000001,9.0700000000000003,9.0299999999999994,10.369999999999999,10.699999999999999,10.35,10.27,10.33,11.02,10.970000000000001,10.550000000000001,10.609999999999999,10.16,9.8699999999999992,9.9900000000000002,10.279999999999999,10.58,10.4,10.49,10.67,10.42,10.220000000000001,10.390000000000001,10.77,10.6,10.779999999999999,11.19,11.029999999999999,10.5,10.07,9.8100000000000005,10.210000000000001,10.16,9.8200000000000003,9.7400000000000002,9.7799999999999994,10.050000000000001,10.31,10.220000000000001,10.56,10.33,10.15,9.9800000000000004,10.24,10.220000000000001,10.17,9.9000000000000004,9.6799999999999997,9.6099999999999994,9.2899999999999991,9.5199999999999996,9.5299999999999994,9.4499999999999993,9.6699999999999999,9.5,9.1500000000000004,8.9199999999999999,8.9100000000000001,8.6999999999999993,8.3499999999999996,8.6799999999999997,8.8300000000000001,8.9800000000000004,8.8499999999999996,8.5999999999999996,8.4299999999999997,8.0500000000000007,8.0099999999999998,8.0199999999999996,8.2100000000000009,8.2899999999999991,8.1400000000000006,7.8600000000000003,7.5300000000000002,7.5,7.4299999999999997,7.5,7.3399999999999999,7.25,6.9699999999999998,6.9500000000000002,6.8600000000000003,7.3099999999999996,7.1299999999999999,6.9699999999999998,7.3200000000000003,7.7999999999999998,8.3200000000000003,8.5299999999999994,8.4600000000000009,8.5700000000000003,8.5600000000000005,8.8200000000000003,9.0299999999999994,9.25,9.1799999999999997,9.1300000000000008,8.7300000000000004,8.3800000000000008,8.2599999999999998,7.8499999999999996,7.5300000000000002,7.79,7.8799999999999999,7.6200000000000001,7.4500000000000002,7.3499999999999996,7.1100000000000003,7,7.3200000000000003,7.6900000000000004,7.9199999999999999,8.0299999999999994,8.2899999999999991,8.1899999999999995,8.0899999999999999,8.1600000000000001,7.8600000000000003,7.5199999999999996,7.6399999999999997,7.8799999999999999,7.6500000000000004,7.9699999999999998,8.0800000000000001,7.9400000000000004,7.5800000000000001,7.4299999999999997,7.5800000000000001,7.2800000000000002,7.21,7.1699999999999999,6.9900000000000002,7.1200000000000001,7.0899999999999999,7.0800000000000001,7.1500000000000004,7.0700000000000003,6.96,6.9699999999999998,6.9199999999999999,6.6399999999999997,6.8300000000000001,6.7800000000000002,6.8300000000000001,6.7400000000000002,6.8899999999999997,6.9800000000000004,6.9299999999999997,7.2300000000000004,7.6299999999999999,7.7000000000000002,7.7999999999999998,7.7599999999999998,7.96,7.75,8.0600000000000005,8.25,8.3100000000000005,8.2300000000000004,8.1300000000000008,8.6199999999999992,8.2200000000000006,8.1300000000000008,7.9900000000000002,7.8799999999999999,7.6799999999999997,7.7300000000000004,7.1299999999999999,7.1500000000000004,7.1200000000000001,6.9100000000000001,7.1200000000000001,7.2000000000000002,7.1100000000000003,7.0300000000000002,6.9199999999999999,6.7199999999999998,6.6399999999999997,7.0199999999999996,7.1600000000000001,6.96,6.8099999999999996,7.1799999999999997,6.8799999999999999,6.7599999999999998,6.5499999999999998,6.3399999999999999,6.2199999999999998,5.9900000000000002,6.3099999999999996,6.1299999999999999,5.9299999999999997,5.9000000000000004,5.79,5.9100000000000001,5.79,5.3099999999999996,5.2400000000000002,5.9400000000000004,6.3200000000000003,5.9800000000000004,5.9400000000000004,5.8899999999999997,5.8499999999999996,5.6799999999999997,5.5800000000000001,5.4000000000000004,6.0099999999999998,6.3200000000000003,6.25,6.0800000000000001,5.8200000000000003,5.7199999999999998,5.6399999999999997,5.7199999999999998,5.8099999999999996,5.6600000000000001,5.6900000000000004,6.04,5.7800000000000002,5.6500000000000004,5.5300000000000002,5.7699999999999996,5.7699999999999996,5.9100000000000001,6.1500000000000004,6.2800000000000002,6.2199999999999998,6.1200000000000001,6.2599999999999998,6.3499999999999996,6.5800000000000001,6.6200000000000001,6.7800000000000002,6.7199999999999998,6.4400000000000004,6.3099999999999996,6.4000000000000004,6.1399999999999997,6.1799999999999997,6.25,6.2199999999999998,6.1600000000000001,6.1600000000000001,6.4199999999999999,6.6699999999999999,6.6900000000000004,6.4500000000000002,6.4199999999999999,6.3300000000000001,6.0999999999999996,6.1699999999999999,5.6799999999999997,6.2400000000000002,5.8499999999999996,6.0300000000000002,6.0800000000000001,6.4500000000000002,6.5199999999999996,6.4000000000000004,6.0899999999999999,6.46,5.9699999999999998,5.0999999999999996,5.0999999999999996,5.0700000000000003,4.8499999999999996,4.7800000000000002,4.9100000000000001,5.4199999999999999,5.25,5.1399999999999997,5.04,5.0300000000000002,4.7800000000000002,5.1399999999999997,4.9800000000000004,5.0499999999999998,4.9900000000000002,5.0599999999999996,4.7800000000000002,4.6900000000000004,4.54,4.3600000000000003,4.3200000000000003,4.2300000000000004,4.4000000000000004,4.8600000000000003,4.7999999999999998,4.9500000000000002,4.8600000000000003,4.7800000000000002,4.5999999999999996,4.5099999999999998,4.5499999999999998,4.2199999999999998,4.0099999999999998,4.0999999999999996,3.98,3.9500000000000002,3.98,3.9500000000000002,3.9900000000000002,3.8799999999999999,3.75,3.6600000000000001,3.4900000000000002,3.5899999999999999,3.3999999999999999,3.4100000000000001,3.3199999999999998,3.3500000000000001,3.5299999999999998,3.5099999999999998,3.5699999999999998,3.3999999999999999,3.8100000000000001,4.46,4.3099999999999996,4.5099999999999998,4.3200000000000003,4.0999999999999996,4.29,4.4800000000000004,4.3200000000000003,4.3700000000000001,4.4000000000000004,4.3300000000000001,4.1200000000000001,4.1399999999999997,4.1200000000000001,4.0999999999999996,4.2000000000000002,3.98,3.9700000000000002,3.8700000000000001,3.6600000000000001,3.7999999999999998,3.6899999999999999,3.6800000000000002,3.8700000000000001,4.0199999999999996,3.98,3.8399999999999999,3.8599999999999999,3.7599999999999998,3.9500000000000002,4.0099999999999998,3.79,3.6200000000000001,3.71,3.6600000000000001,3.6400000000000001,3.48,3.48,3.4300000000000002,3.4199999999999999,3.4700000000000002,4.0300000000000002,4.3200000000000003,4.1900000000000004,4.1600000000000001,4.1399999999999997,4.0300000000000002,3.9500000000000002,3.8799999999999999,3.9199999999999999,3.8199999999999998,3.8300000000000001,3.9399999999999999,3.8999999999999999,3.9900000000000002,4.1500000000000004,4.4000000000000004,4.4400000000000004,4.5800000000000001,4.5599999999999996,4.5499999999999998,4.54,4.5199999999999996,4.7199999999999998,4.8600000000000003,4.8099999999999996,4.5499999999999998,4.46,4.3499999999999996,4.0599999999999996,4.2000000000000002,3.9900000000000002,3.73,3.75,3.5800000000000001,3.6400000000000001,3.7799999999999998,3.6800000000000002,3.7400000000000002,3.5099999999999998,3.4500000000000002,3.5,3.23,3.1499999999999999,3.1299999999999999,2.9900000000000002,2.9100000000000001,2.8999999999999999,2.8100000000000001,2.7200000000000002,2.6699999999999999,2.73,2.9700000000000002,3.1699999999999999,2.98,2.9500000000000002,3.02,2.7999999999999998,2.8700000000000001,3.0099999999999998,3.1400000000000001,3.1000000000000001,3.1099999999999999,3.5499999999999998,3.8900000000000001,4.6699999999999999,5.0999999999999996,5.0999999999999996,5.7000000000000002,5.2999999999999998,5.5499999999999998,6.7000000000000002,7.0800000000000001,6.5800000000000001,6.4199999999999999,6.1299999999999999,6.5,6.3200000000000003,6.4299999999999997,6.5700000000000003,6.71,6.8099999999999996,7.1799999999999997,7.3099999999999996,7.79,7.2199999999999998,6.6100000000000003,6.6900000000000004,6.9400000000000004,6.79,7.1699999999999999,7.0300000000000002,6.8600000000000003,6.7800000000000002,6.3499999999999996,6.0800000000000001,6.7199999999999998,6.8099999999999996,6.8499999999999996,6.9500000000000002,6.7599999999999998,6.6500000000000004,6.8099999999999996,6.8600000000000003],"mode":"lines","line":{"color":"#1f77b4","width":2},"name":"Mortgage Rate","type":"scatter","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>Mortgage rates in the United States have experienced significant fluctuations from 1971 to 2025. The 2008 financial crisis led to declines, with rates dropping below 5%.</p>
+<p>From 2008 to 2012, while the market itself was recovering, mortgage rates declined significantly, making houses more affordable.</p>
+<p>There were slight increases between 2013-2019, but overall rates remained very stable.</p>
+<p>However, in 2020-2021, due to the COVID pandemic, rates went as low as 2.73% after the Fed cut the federal funds rate to near zero to avoid a pandemic-induced recession <span class="citation" data-cites="liang2024fed">(<a href="#ref-liang2024fed" role="doc-biblioref">Liang and Wessel 2024</a>)</span>.</p>
+<p>By late 2021, it became clear that, while federal policies had shortened the pandemic recession, they had also overstimulated the economy. Inflation peaked at 9.1 percent in June 2022. The Fed responded by raising its benchmark rate sharply <span class="citation" data-cites="ostrowski2025housing">(<a href="#ref-ostrowski2025housing" role="doc-biblioref">Ostrowski 2025</a>)</span>.</p>
+</section>
+<section id="comparison-with-similar-states-and-bigger-states" class="level2">
+<h2 class="anchored" data-anchor-id="comparison-with-similar-states-and-bigger-states">Comparison with similar states and bigger states</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/median_house_prices_midwest_states_and_some_big_states.csv"</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> median_house_price)) <span class="sc">+</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="fl">1.2</span>, <span class="at">color =</span> <span class="st">"blue"</span>) <span class="sc">+</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">2</span>, <span class="at">color =</span> <span class="st">"blue"</span>) <span class="sc">+</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> NAME, <span class="at">scales =</span> <span class="st">"free_y"</span>) <span class="sc">+</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">2005</span>, <span class="dv">2023</span>, <span class="at">by =</span> <span class="dv">2</span>)) <span class="sc">+</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>comma) <span class="sc">+</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Median House Prices by State (2005–2023)"</span>,</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Median House Price (USD)"</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="report_files/figure-html/unnamed-chunk-7-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="report_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="960"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Looking at the data, we can observe that larger states like New York, Washington, and Massachusetts exhibit much more dramatic price fluctuations compared to smaller Midwest states. These bigger states show steeper increases during boom periods and more pronounced dips during market corrections, while states like Iowa, North Dakota, South Dakota, and Nebraska maintain relatively steady, linear growth patterns throughout the time period.</p>
+</section>
+<section id="what-caused-the-market-dips-in-big-states" class="level2">
+<h2 class="anchored" data-anchor-id="what-caused-the-market-dips-in-big-states">What caused the market dips in big states?</h2>
+<p>The housing market crash of 2008-2012, fueled by the subprime mortgage crisis, saw major housing price drops across the US, with some states experiencing more severe declines than others. These price drops were primarily driven by the inability of many homeowners to repay their mortgages, leading to a surge in foreclosures and a glut of homes on the market <span class="citation" data-cites="weinberg_recession">(<a href="#ref-weinberg_recession" role="doc-biblioref">Weinberg, n.d.</a>)</span>.</p>
+</section>
+<section id="why-is-iowa-so-stable" class="level2">
+<h2 class="anchored" data-anchor-id="why-is-iowa-so-stable">Why is Iowa so stable?</h2>
+<p>According to <span class="citation" data-cites="capozza2002">Capozza et al. (<a href="#ref-capozza2002" role="doc-biblioref">2002</a>)</span>, “variation in the cyclical behavior of real house prices across metropolitan areas is due to more than just variation in local economies. House prices react differently to economic shocks depending on such factors as growth rates, area size, and construction costs.”</p>
+<p>In short, what influences housing prices? Housing supply, population growth, urbanization, regulatory constraints, and interest rates <span class="citation" data-cites="steers2025housing">(<a href="#ref-steers2025housing" role="doc-biblioref">Steers Global Real Assets 2025</a>)</span>.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>gdp <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/Real_GDP_for_the_State_of_Iowa__Most_Recent_Quarterly_Estimates_20250530.csv"</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>gdp<span class="sc">$</span>Real.GDP.Billions <span class="ot">&lt;-</span> gdp<span class="sc">$</span>Real.GDP <span class="sc">/</span> <span class="dv">1000000000</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(gdp, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(Industry, Real.GDP), <span class="at">y =</span> Real.GDP.Billions)) <span class="sc">+</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">fill =</span> <span class="st">"steelblue"</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>comma) <span class="sc">+</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Real GDP by Industry for Iowa (Q2 2024)"</span>,</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Industry"</span>,</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Real GDP (Billions $)"</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">9</span>),</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>)</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="report_files/figure-html/unnamed-chunk-8-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="report_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="1344"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>From the GDP composition chart, we can see that Iowa relies heavily on manufacturing, agriculture, and other traditional industries that provide economic stability <span class="citation" data-cites="iowa_gdp">(<a href="#ref-iowa_gdp" role="doc-biblioref">data.iowa.gov, n.d.</a>)</span>. The state’s diversified economy, with significant contributions from manufacturing, finance, and agriculture sectors, creates a more resilient economic foundation that helps maintain steady housing demand without the speculative bubbles seen in tech-heavy or finance-dominated markets.</p>
+<p>Iowa has maintained relatively stable housing prices due to several key factors: steady economic growth without dramatic booms or busts, a stable economy, lower regulatory constraints compared to coastal states, and more balanced housing supply. Additionally, Iowa’s smaller metropolitan areas and lower construction costs have contributed to this stability, making the state less susceptible to the extreme price volatility experienced in larger, more speculative housing markets.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The analysis shows that household income does not correlate with the rate of homeownership in Iowa, but rather that there are numerous variables in the equation. Despite disproportional growth between household income and house prices, the actual cost of owning a house has decreased significantly since 2005. It is also worth noting that Iowa’s financial growth was not heavily impacted by major financial crises. This is due to its reliance on a more stable manufacturing-based economy as shown in its GDP composition. A significant reason why it is so stable is that housing prices in Iowa are only 3 times the yearly household income, which is one of the lowest ratios in the country. In contrast, in bigger states, despite massive swings, the ratio between housing prices and income remains significantly higher.</p>
+</section>
+<section id="references" class="level2">
+
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-capozza2002" class="csl-entry" role="listitem">
+Capozza, Dennis R., Patric H. Hendershott, Charlotte Mack, and Christopher J. Mayer. 2002. <span>“Determinants of Real House Price Dynamics.”</span> National Bureau of Economic Research. <a href="https://www.nber.org/papers/w9262">https://www.nber.org/papers/w9262</a>.
+</div>
+<div id="ref-iowa_gdp" class="csl-entry" role="listitem">
+data.iowa.gov. n.d. <span>“Iowa’s Gross Domestic Product.”</span> <a href="https://data.iowa.gov/stories/s/Iowa-s-Gross-Domestic-Product/ubgu-5xaq/">https://data.iowa.gov/stories/s/Iowa-s-Gross-Domestic-Product/ubgu-5xaq/</a>.
+</div>
+<div id="ref-iowa_housing_overview" class="csl-entry" role="listitem">
+Iowa Finance Authority. n.d. <span>“Iowa Housing Overview.”</span> <a href="https://www.iowafinanceauthority.gov/about/housing-overview">https://www.iowafinanceauthority.gov/about/housing-overview</a>.
+</div>
+<div id="ref-liang2024fed" class="csl-entry" role="listitem">
+Liang, Nellie, and David Wessel. 2024. <span>“What Did the Fed Do in Response to the COVID-19 Crisis?”</span> <em>Brookings</em>. <a href="https://www.brookings.edu/articles/fed-response-to-covid19/">https://www.brookings.edu/articles/fed-response-to-covid19/</a>.
+</div>
+<div id="ref-ostrowski2025housing" class="csl-entry" role="listitem">
+Ostrowski, Jeff. 2025. <span>“Post-Covid, the Housing Market Is Worse for Buyers.”</span> <em>Bankrate</em>. <a href="https://www.bankrate.com/mortgages/5-years-after-the-pandemic-the-housing-market-is-significantly-worse-for-buyers/">https://www.bankrate.com/mortgages/5-years-after-the-pandemic-the-housing-market-is-significantly-worse-for-buyers/</a>.
+</div>
+<div id="ref-steers2025housing" class="csl-entry" role="listitem">
+Steers Global Real Assets. 2025. <span>“Why Are Houses so Expensive?: Factors Affecting Housing Prices.”</span> Georgetown University. <a href="https://globalrealestate.georgetown.edu/insight/why-are-houses-so-expensive/">https://globalrealestate.georgetown.edu/insight/why-are-houses-so-expensive/</a>.
+</div>
+<div id="ref-weinberg_recession" class="csl-entry" role="listitem">
+Weinberg, John A. n.d. <span>“The Great Recession and Its Aftermath.”</span> Federal Reserve History. <a href="https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath">https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

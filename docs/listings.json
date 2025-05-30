@@ -1,8 +1,68 @@
 [
   {
+    "listing": "/studentBlogs/tanisha.html",
+    "items": [
+      "/studentBlogs/tanisha/census-report-v2-tanishamagikar/report.html",
+      "/studentBlogs/tanisha/student-intro-tanishamagikar/introduction.html"
+    ]
+  },
+  {
+    "listing": "/studentBlogs/madison.html",
+    "items": [
+      "/studentBlogs/madison/census-report-v2-madherd/report.html",
+      "/studentBlogs/madison/student-intro-madherd/introduction.html"
+    ]
+  },
+  {
+    "listing": "/studentBlogs/kat.html",
+    "items": [
+      "/studentBlogs/kat/student-intro-ekurkalova/introduction.html"
+    ]
+  },
+  {
+    "listing": "/studentBlogs/duy.html",
+    "items": [
+      "/studentBlogs/duy/census-report-v2-DuyD279/report.html",
+      "/studentBlogs/duy/student-intro-DuyD279/introduction.html"
+    ]
+  },
+  {
     "listing": "/allBlogs.html",
     "items": [
       "/blogs2025/Blog_Guidelines/index.html"
+    ]
+  },
+  {
+    "listing": "/studentBlogs/aparneesh.html",
+    "items": [
+      "/studentBlogs/aparneesh/census-report-v2-ISU-Aparneesh/report.html",
+      "/studentBlogs/aparneesh/student-intro-ISU-Aparneesh/introduction.html"
+    ]
+  },
+  {
+    "listing": "/studentBlogs/harun.html",
+    "items": [
+      "/studentBlogs/harun/harun-intro/harun_Introduction.html"
+    ]
+  },
+  {
+    "listing": "/studentBlogs/jorge.html",
+    "items": [
+      "/studentBlogs/jorge/census-report-v2-J-Yass/report.html",
+      "/studentBlogs/jorge/student-intro-J-Yass/introduction.html"
+    ]
+  },
+  {
+    "listing": "/studentBlogs/meenakshi.html",
+    "items": [
+      "/studentBlogs/meenakshi/student-intro-Meen191/introduction.html"
+    ]
+  },
+  {
+    "listing": "/studentBlogs/rishita.html",
+    "items": [
+      "/studentBlogs/rishita/census-report-v2-rishita250/report.html",
+      "/studentBlogs/rishita/student-intro-rishita250/introduction.html"
     ]
   }
 ]
