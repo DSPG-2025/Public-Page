@@ -522,7 +522,7 @@
     "href": "schedule.html#june-16th---monday",
     "title": "Weekly Schedule",
     "section": "June 16th - Monday",
-    "text": "June 16th - Monday\n\nLocation\n\nEast Hall 311\n\n\n\nMorning Meetings are Online\n1:00 - 4:00: Meet for the afternoon in-person at East Hall 311"
+    "text": "June 16th - Monday\n\nLocation\n\nEast Hall 311\n\n\n\nMorning Meetings are Online\n1:00 - 4:00: Meet for the afternoon in-person at East Hall 311\n\n1:00 - 3:00: Jorge Yass - SQL Workshop"
   },
   {
     "objectID": "schedule.html#june-17th---tuesday",
@@ -536,21 +536,21 @@
     "href": "schedule.html#june-18th---wednesday",
     "title": "Weekly Schedule",
     "section": "June 18th - Wednesday",
-    "text": "June 18th - Wednesday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Data Wrangling Activity\nRest of Day: Preparations for Midterm Presentations"
+    "text": "June 18th - Wednesday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\n10:00 - 11:30: Jay Maxwell - Introduction to Spatial Data\nRest of Day: Preparations for Midterm Presentations"
   },
   {
     "objectID": "schedule.html#june-19th---thursday",
     "href": "schedule.html#june-19th---thursday",
     "title": "Weekly Schedule",
     "section": "June 19th - Thursday",
-    "text": "June 19th - Thursday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Midterm Presentations & Continue Project Work"
+    "text": "June 19th - Thursday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\nRest of Day: Midterm Presentation Prep"
   },
   {
     "objectID": "schedule.html#june-20th---friday",
     "href": "schedule.html#june-20th---friday",
     "title": "Weekly Schedule",
     "section": "June 20th - Friday",
-    "text": "June 20th - Friday\n\nLocation\n\nMarston 2200\n\n\n\n8:00 - 10:00: Complete this Week’s Project Goals\n10:00 - 12:00: Student’s Create Weekly Team Blog\n12:00 - 1:00: Lunch Break\n1:00 - 3:00: Student’s Present Team Weekly Blog\n3:00 - 4:00: Review Feedback and Submit Final weekly Blog"
+    "text": "June 20th - Friday\n\nLocation\n\nEast Hall 311 - Only This Week\n\n\n\n8:00 - 10:00: Complete Midterm Presentations\n12:00 - 1:00: Lunch Break\n1:00 - 3:00: Student Midterm Presentations\n3:00 - 4:00: Review Feedback and Submit Final weekly Blog"
   },
   {
     "objectID": "schedule.html#june-23rd---monday",
@@ -721,6 +721,69 @@
     "text": "Program Leader\n\nChristopher J. Seeger, Professor, Landscape Architecture; Extension Specialist in Geospatial Technologies\n\nProgram Coordinator\n\nHarun Çelik, Higher Education and Graduate GIS Certificate\n\nProject Advisers\n\nLisa Bates, Assistant Director, Community and Economic Development\nBailey Hanson, Data Analyst in Community and Economic Development Extension\nMohammad Ahnaf Sadat, Industrial and Manufacturing Systems Engineering\n\nProgram Advisers\n\nAdisak Sukul, Ph.D. Associate Teaching Professor\nHeike Hoffman, Professor\nTodd Abraham, Research Scientist\n\nGraduate Fellows\n\nJorge Yass, Human Computer Interaction and Computer Engineering\nMeenakshi, Political Science\n\nUndergraduate Interns\n\nAparneesh P. Patil, Computer Science and Applied Mathematics\nDuy Doan, Computer Science and Mathematics\nTanisha M. Magikar, Computer Science\nEkaterina Kurkalova, Data Science and Minor in Russian Studies\nMadison R. Herdlicka, Community and Regional Planning\nRishita Kollu, Computer Engineering and Minor in Data Science"
   },
   {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html",
+    "href": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html",
+    "title": "STEM Education - Week Two",
+    "section": "",
+    "text": "Our main goals:\n\nCompare the STEM factors we found the previous week between Iowa and the Midwest\nCompare the STEM education indicators\n\nWe decided to focus on narrowing the comparisons to the Midwest because of the similarities between states, and we compared the factors and indicators to identify those states with better metrics than Iowa and understand what these states are doing (policies, resources) ."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#limitations",
+    "href": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#limitations",
+    "title": "STEM Education - Week Two",
+    "section": "Limitations",
+    "text": "Limitations\n\nThe STEM education indicators were not available in other Midwest states, so the comparison wasn’t performed for those cases"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#unemployment",
+    "href": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#unemployment",
+    "title": "STEM Education - Week Two",
+    "section": "Unemployment",
+    "text": "Unemployment\n\n\n          state STEM Employ STEM Unemploy   PCI R&D performance\n1      Michigan    97.53862      2.461375 56813           24898\n2      Illinois    97.63993      2.360073 68822           19203\n3          Ohio    97.91931      2.080694 57880           16647\n4       Indiana    97.95426      2.045735 57930           10303\n5     Minnesota    98.48507      1.514928 68010           10301\n6     Wisconsin    98.67023      1.329768 61210            8346\n7      Missouri    98.19492      1.805079 56551            8229\n8          Iowa    98.97772      1.022281 58905            4480\n9        Kansas    98.53966      1.460338 60152            3616\n10     Nebraska    98.42993      1.570071 63321            1492\n11 North Dakota    99.03849      0.961513 66184             679\n12  Sout Dakota    99.27201      0.727991 65806             344\n\n\n\nThere is an inverse relationship between GDP and unemployment (Okun’s law). However, Michigan and Ohio have the most significant unemployment rates in STEM; however, they also have the first and third place in Research and Development performance (2022). \nIllinois (68822), Minnesota (68010), North Dakota (66184), and South Dakota (658060) have the greatest GDP per capita in the Midwest. Iowa has 58905 (8th place). \nThere is no clear relationship between GDP, STEM unemployment, and R&D performance, but R&D intensity is the next factor to be investigated.\n\na metric that quantifies the level of research and development spending by a company or entity relative to its total assets or revenue"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#overall-economy",
+    "href": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#overall-economy",
+    "title": "STEM Education - Week Two",
+    "section": "Overall Economy",
+    "text": "Overall Economy\n\nMotivation\nTo compare various economic and educational indicators for Iowa versus other North Central Extension states — analyzing how STEM-related factors influence innovation and workforce development.\n\n\n\nEducation Indicator: ACT Scores in Math and Science\nWe analyzed ACT Math and Science scores by state for the years 2020–2024. This helps assess STEM readiness among students across Midwestern states.\nSource: ACT Official Website\n  \n  \nObservations\n\nTop Performers\n\nIllinois and Michigan consistently perform above 60% in both math and science — notably higher than other Midwest states.\nIndiana is stable with scores in the mid-to-high 50s, showing less year-to-year volatility.\n\nMid to Low Performers\n\nIowa, Minnesota, and Ohio hover in the mid-40s to low 50s, showing a general downward trend.\nWisconsin, Missouri, South Dakota, and Nebraska show a steady decline, dipping below 40% in some years.\n\nLowest Performers\n\nNorth Dakota and South Dakota are among the lowest, with scores ranging in the low 30s to low 40s.\nNebraska shows a concerning decline from the mid-30s to below 30% by 2024.\n\nShocking Trends\n\nNearly every state experienced a drop in ACT scores after 2021, likely due to:\n\nCOVID-19 learning loss\nReduced test participation\nTest-optional policies lowering motivation\n\nMinnesota’s drop from ~45% to ~40% is surprising given its strong academic reputation.\nIowa’s decline is unexpected considering its established K–12 education systems.\n\n\n\n\n\nPolicy & Educational Factors\n\n\n\n\n\n\n\nState\nSTEM Education Landscape\n\n\n\n\nIllinois\nIL STEM Learning Exchanges; strong AP access; urban investment.\n\n\nMichigan\nMI STEM Network; Career Pathways; Ford/GM education programs.\n\n\nIowa\nIowa STEM Council active but may face rural implementation challenges.\n\n\nNebraska, Dakotas\nLower per-student spending; fewer dual-credit and STEM offerings.\n\n\nMinnesota\nHistorically strong education system; drop may stem from teacher shortages and curriculum debates.\n\n\n\nLimitation - Data for the year 2022 is missing from the ACT dataset."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#economy-innovation-and-export",
+    "href": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#economy-innovation-and-export",
+    "title": "STEM Education - Week Two",
+    "section": "Economy: Innovation and Export",
+    "text": "Economy: Innovation and Export\n\n1. STEM Employment Data\nWe began by analyzing the total number of STEM jobs across states. We then compared it with state population to derive STEM employment as a percentage of total population.\n\nSTEM Employment by State\n  \nObservations\n\nCalifornia stands out with the highest number of STEM jobs, followed by Texas, New York, and Florida.\nMassachusetts and New Jersey show high employment rates relative to size — emphasizing quality over quantity.\n\n\n\nWhy California?\n\nSilicon Valley: Home to Google, Apple, Meta, etc.\nTop Universities: UC Berkeley, Stanford, Caltech.\nR&D Investment: Especially in aerospace and biotech.\nTalent Migration: Attracts skilled international professionals.\n\n\n\nWhy Texas?\n\nMajor Hubs: Austin, Houston, and Dallas lead in tech.\nSTEM Industries: Aerospace, NASA, renewables, and oil R&D.\nPolicy Advantages: Business-friendly environment and no state income tax.\nWorkforce Supply: Large population means abundant STEM labor.\n\n\n\nLimitations\n\nColorado — Data is missing. This is notable since Colorado is a known STEM center (e.g., Boulder, Denver).\nWashington appears underrepresented, which is unexpected given its strong STEM base (Amazon, Microsoft, Boeing). This may reflect cutoff dates or STEM job definitions."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#business-dynamics-bds-data",
+    "href": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#business-dynamics-bds-data",
+    "title": "STEM Education - Week Two",
+    "section": "2. Business Dynamics: BDS Data",
+    "text": "2. Business Dynamics: BDS Data\nWe used Census BDS data to explore trends like firm births, closures, net job creation, and survival rates.\nAn interactive Shiny app was developed for dynamic exploration:\n\nObservations\n\nAllows real-time comparison of business dynamics across states and years.\nCan filter by firm size, industry, and age for deeper insights.\nHelpful in linking entrepreneurship trends with STEM readiness and economic resilience.\n\n\n\n3. Internet Availability\n\nAlthough Internet access is a known driver of innovation, our dataset lacked direct metrics to quantify its impact on economic growth.\nAs a result, this factor was not explored further in this iteration.\n\n\n\n4. Export Data\n\nWhile we have access to state-level export data, it is difficult to directly classify exports as STEM-related, since most data is organized by product type rather than economic sector.\nFor consistency, we plan to focus on Midwestern states only in future comparative export analysis."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#post-secondary-education",
+    "href": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#post-secondary-education",
+    "title": "STEM Education - Week Two",
+    "section": "Post Secondary Education",
+    "text": "Post Secondary Education\n\nMotivation\n\nWhat level of education is needed to go into STEM?\nWhat demographic groups are obtaining STEM degrees?\nAre Iowa post-secondary institutions turnings out a proportional amount of STEM graduates compared to other states?\n\n\n\nFindings\n                   \n\n\nObservations\n\nThe overall number of STEM degrees conferred is still growing\nLarge majority of STEM degrees are Baccalaureate level\n\nPSEO: graduate degrees aren’t needed as much to obtain jobs for STEM as opposed to non-STEM\n\nStill, the number of STEM masters degrees being conferred is on the rise. Doctorates are not.\nThe number of Associate STEM degrees conferred are going down\nCertificates below Associates being conferred are going up\n\nConjecture: In a more competitive job market, more people are obtaining skill certifications in addition to degrees\n\n\n                   \n                   \n\nObservations\n\nThe rise in nonresident students who STEM degrees were conferred to went up rapidly, and started to plateau after 2017\n\nPotential question: What has incentivized nonresident students to get STEM degrees in this time?\n\nThe number of degrees conferred to Hispanic recipients has grown rapidly and steadily\n\n                   \n\nObservations\n\n35.3% of degrees conferred in Iowa in 2022 were in science and engineering fields\nMichigan and Wisconsin have the highest proportion of degrees conferred in STEM\nMinnesota had 29.2%, the lowest percent of degreed conferred that were STEM in 2022\nPotential question: Does Iowa have a STEM professionals retainment problem?\n\n                   \n\nObservations\n\nMichigan increased percent of degreed conferred in STEM by 3.4%\n\nWhat is Michigan doing better than the rest?\n\nIowa had 3.2% increase, the second highest\n\nAgricultural sciences\n\nNorth and South Dakotas, as well as Minnesota, have seen a decrease in the percent of STEM degrees conferred\n\n\n\nLimitations\nIt was very difficult to find data on the state level.\nIPEDS dataset:\n\nData includes the 50 states and District of Columbia\nSTEM fields include biological and biomedical sciences, computer and information sciences, engineering and engineering technologies, mathematics and statistics, and physical sciences and science technologies\n\nKansas dataset:\n\nDegree levels considered in this dataset: bachelor’s, master’s, and doctorate degrees\nDegree fields considered in this dataset: engineering, physical, computer and mathematical, agricultural and biological, and social sciences, science technologies, and engineering technologies\nSome of the fields considered may be controversially STEM and are not included in other datasets but dataset had predetermined it so we cannot make it uniform to the IPEDS"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#mathematics-scores",
+    "href": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#mathematics-scores",
+    "title": "STEM Education - Week Two",
+    "section": "Mathematics Scores",
+    "text": "Mathematics Scores\n\nMotivation:\n\nAlthough math scores are not a huge indicator to whether a state is doing better in STEM, since they don’t impact the STEM field directly, especially with such a young group, they do somewhat show a trend of whether students are interested in STEM.\n\n\n\nNAEP scores for 4th graders\n\n\n\n\n\n\n\n\nNAEP scores for 8th graders\n\n\n\n\n\n\n\n\nFindings:\n\nIowa, since 2019, seems to be on a downwards trend for both 4th and 8th graders.\nThese trends are similar with other states around the Midwest as well.\nOne possible reason:\n\nNo quality education for a year (due to COVID)\n\nHowever, some states began recovering in 2022\nWhat are these states doing that helps improve their scores?\nCan Iowa implement this as well?\nTo find said states, look at percentage change from 2022 to 2024\n\n\n\nPercent Change in 4th grade NAEP scores (2022 to 2024)\n                   \n\n\nPercent Change in 8th grade NAEP scores (2022 to 2024)\n                   \n\n\nConclusion:\n\nIowa has regressed for both 4th and 8th graders\nIndiana, Ohio and Kansas seem to be on an upwards trend\nLook into policies and resources that these states are incorporating?\n\n\n\nLimitations:\n\nNAEP scores only limited to three years: 2019, 2022, 2024\nSkipping 2021 due to COVID\nDeeper analysis can include more categories (ex. Proficient or Above, Advanced only, etc)"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#common-states",
+    "href": "blogs2025/Week-Two/weekly-blog-two-stem-ed/Weekly_Team_Blog.html#common-states",
+    "title": "STEM Education - Week Two",
+    "section": "Common States",
+    "text": "Common States\n\nEach indicator had a different state performing better than other states\nTwo states that were commonly seen:\n\nIndiana\nOhio\n\nWhat are these states implementing that is working?\n\n\nPolicy\n\nIndiana\n\nK–12 Robotics Grants\n\nDedicated funding for hands-on robotics & coding.\nUp to $100,000 in grant funding\nIowa has no specfic funding allocated for robotics\n\n\nOhio\n\nOSLN Classroom Grants\n\nUp to $5K per teacher for STEM innovation (direct, flexible classroom support).\nSo far 300 projects have been awarded up\nIowa lacks statewide grant programs direct to teachers"
+  },
+  {
     "objectID": "blogs2025/Week-One/weekly-blog-one-stem-ed-1/Weekly_Team_Blog.html",
     "href": "blogs2025/Week-One/weekly-blog-one-stem-ed-1/Weekly_Team_Blog.html",
     "title": "STEM Education - Week One",
@@ -809,7 +872,7 @@
     "href": "allBlogs.html",
     "title": "Project Blogs",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJun 9, 2025\n\n\nCommunity Capitals - Week One\n\n\nCommunity Capitals\n\n\n\n\nJun 6, 2025\n\n\nSTEM Education - Week One\n\n\nSTEM Education\n\n\n\n\nMay 22, 2025\n\n\nBlog Writing Guidelines\n\n\nHarun Celik\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJun 13, 2025\n\n\nSTEM Education - Week Two\n\n\nSTEM Education Group\n\n\n\n\nJun 13, 2025\n\n\nCommunity Capitals - Week Two\n\n\nCommunity Capitals\n\n\n\n\nJun 9, 2025\n\n\nCommunity Capitals - Week One\n\n\nCommunity Capitals\n\n\n\n\nJun 6, 2025\n\n\nSTEM Education - Week One\n\n\nSTEM Education\n\n\n\n\nMay 22, 2025\n\n\nBlog Writing Guidelines\n\n\nHarun Celik\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blogs2025/Week-One/weekly-blog-one-community-cap/Weekly_Team_Blog.html",
@@ -873,6 +936,153 @@
     "title": "Community Capitals - Week One",
     "section": "Radar Chart by Quintile Methods",
     "text": "Radar Chart by Quintile Methods\nThe graph below shows Polk County built capital variables using two different methods of quintiles"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html",
+    "title": "Community Capitals - Week Two",
+    "section": "",
+    "text": "The graph suggests a slight positive relationship between housing deficiency and volunteering rate. As the proportion of deficient housing increases, the volunteering rate tends to increase. However, the wide confidence interval indicates variability and some uncertainty in this trend. This may imply that in areas with more housing challenges, community members are somewhat more likely to engage in volunteering possibly reflecting stronger community bonds."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#where-do-mismatches-appear-and-what-might-explain-them",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#where-do-mismatches-appear-and-what-might-explain-them",
+    "title": "Community Capitals - Week Two",
+    "section": "",
+    "text": "The graph suggests a slight positive relationship between housing deficiency and volunteering rate. As the proportion of deficient housing increases, the volunteering rate tends to increase. However, the wide confidence interval indicates variability and some uncertainty in this trend. This may imply that in areas with more housing challenges, community members are somewhat more likely to engage in volunteering possibly reflecting stronger community bonds."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#housing-deficiency-vs.-civic-organizations",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#housing-deficiency-vs.-civic-organizations",
+    "title": "Community Capitals - Week Two",
+    "section": "Housing Deficiency vs. Civic Organizations",
+    "text": "Housing Deficiency vs. Civic Organizations\nThis graph reveals a slight positive relationship between housing deficiency and civic organizations per capita. As the proportion of deficient housing increases, the number of civic organizations tends to increase slightly. While the trend is not particularly strong, it may suggest that in areas with more housing challenges, there is a slightly higher presence of civic engagement possibly as a response to community needs."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#analysis-of-built-and-social-capital-in-adair-county",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#analysis-of-built-and-social-capital-in-adair-county",
+    "title": "Community Capitals - Week Two",
+    "section": "Analysis of Built and Social Capital in Adair County",
+    "text": "Analysis of Built and Social Capital in Adair County\nThis chart compares two critical types of community capital for counties using percentile scores from 0 to 100, where:\nHow Each Capital Is Measured:\nBuilt Capital: Based on the proportion of deficient housing. A lower deficiency rate results in a higher Built Capital score.\nSocial Capital: Based on a combination of volunteering rates and the number of civic organizations per capita. Higher levels of community involvement and organizational presence boost this score.\nExample: Adair County\nIn the chart shown for Adair County:\nBuilt Capital is slightly above the median, suggesting that the county has a relatively moderate level of housing quality compared to others not among the best, but better than many.\nSocial Capital is significantly higher, placing Adair County in the top percentiles for civic engagement and community organization.\n\n\n\n\n\n\nSelect County"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#top-10-counties-excelling-in-built-and-social-capital",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#top-10-counties-excelling-in-built-and-social-capital",
+    "title": "Community Capitals - Week Two",
+    "section": "Top 10 Counties Excelling in Built and Social Capital",
+    "text": "Top 10 Counties Excelling in Built and Social Capital\nThese counties score above average (above the 50th percentile) in both built and social capitals:\n\n\n\n\n\nCounty\nBuilt Capital\nSocial Capital\nOverall Score\n\n\n\n\nGreene\n83.7\n92.9\n88.3\n\n\nMitchell\n79.6\n92.3\n86.0\n\n\nCerro Gordo\n95.9\n71.4\n83.7\n\n\nBremer\n78.6\n82.1\n80.4\n\n\nJones\n96.9\n63.3\n80.1\n\n\nAllamakee\n86.7\n69.4\n78.1\n\n\nBuchanan\n92.9\n62.2\n77.6\n\n\nWorth\n80.6\n73.0\n76.8\n\n\nClay\n91.8\n60.7\n76.3\n\n\nFloyd\n77.6\n72.4\n75.0\n\n\n\n\n\n\nAre counties with more public events and cultural spaces also more civically engaged?\nThe plot suggests a very slight positive relationship between the number of events per capita and the volunteering rate. Counties with more events tend to have slightly higher volunteering rates, though the relationship is weak and the data show considerable variability. The wide confidence band at higher event levels shows uncertainty due to fewer counties in that range.\n\n\n\n\n\n\n\n\nDo counties with more protected land and forests show stronger civic participations or healthier populations?\nThe graph suggests a very slight upward trend between forest reserve proportion and support ratio, indicating that counties with more forested land may have marginally higher support ratios. However, most counties have very low forest reserve proportions, and the data are tightly clustered at the low end of the x-axis, limiting the strength of this relationship.\n\n\n\n\n\n\n\n\nAre counties exposed to more natural hazards more likely to build strong civic or cultural responses?\nThis plot reveals a moderate negative relationship between tornado frequency and volunteering rates. As tornado events increase, volunteering appears to decline slightly. This could suggest that areas more frequently impacted by tornadoes may face barriers to sustained civic engagement, potentially due to recurring disruptions or resource strain. However, further investigation would be needed to determine causality."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#how-does-msa-type-affect-capital-scores",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#how-does-msa-type-affect-capital-scores",
+    "title": "Community Capitals - Week Two",
+    "section": "How does MSA type affect capital scores?",
+    "text": "How does MSA type affect capital scores?\nThe graphs below show all capitals defined by all variables in the data with quintile values on the left and percentiles on the right for each capital by MSA type (Metropolitan, Micropolitan, and Non-Metropolitan). The graph below these uses calculated averages based on percentiles, to see how far a value is from the median of all counties, which is shown for MSA type below.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis\nMetropolitan counties do the best in Built, Financial, Human, and Political capitals. Non-metropolitan counties do the best in Cultural, Natural, and Social. Micropolitan does not do the best in any capital, but places in the middle for all capitals except Built and Social where they place last. Percentiles and quintiles show the same results.\n\n\nLimitations\nResults do not give us significant differences between metropolitan, micropolitan, and non-metropolitan grouped counties when using all variables. When averaging variables for counties under each MSA type, there is only small deviations from the median across capitals."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#how-does-economic-dependence-affect-capital-scores",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#how-does-economic-dependence-affect-capital-scores",
+    "title": "Community Capitals - Week Two",
+    "section": "How does economic dependence affect capital scores?",
+    "text": "How does economic dependence affect capital scores?\nThe graphs below show all capitals defined by all variables in the data for each capital by ERS Typology, which gives each county a category of economic dependence. Quintiles are used in the graph on the left and percentiles are used in the right. Iowa counties fit into the following categories: Farm-Dependent, Federal/ State Government-Dependent, Manufacturing-Dependent, Non-Specialized, Recreation-Dependent. The graph below these uses calculated averages based on percentiles, to see how far a value is from the median of all counties, which is shown for ERS typology below.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis\nRecreation performs the highest in all capitals except Social where it performs last. Federal/state government sticks out with high political and human capital. All other economic dependency categories stay relatively flat across capitals. Percentiles and quintiles show the same results. Besides recreation and federal/state government-dependent, averages do not deviate significantly from the median.\n\n\nLimitations\nWhile non-specialized, farm-dependent, and manufacturing-dependent all hold 25-40 counties each, recreation-dependent holds only one county and federal/state government-dependent holds only three counties. This is not a fair comparison as recreation-dependent and federal/state government-dependent are highly sensitive to local conditions/ outliers in their average values. Again, results do not give us significant differences between economic dependence types, as averages across those with enough counties to compare are very simaler when using all variables under each capital."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#how-do-capital-scores-differ-across-csas",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#how-do-capital-scores-differ-across-csas",
+    "title": "Community Capitals - Week Two",
+    "section": "How do capital scores differ across CSA’s",
+    "text": "How do capital scores differ across CSA’s\nThe graphs below shows all capitals defined by all variables in the data using quintiles on the left and percentiles on the right for each capital by CSA, which is a combination of adjacent micropolitan or metropolitan counties as a statistical area. There are seven CSA’s that Iowa counties are apart of: Burlington-Fort Madison, IA-IL CSA, which contains Lee and Des Moines counties, Cedar Rapids-Iowa City, IA CSA, which contains Benton, Johnson, Jones, Linn, and Washington counties, Davenport-Moline, IA-IL CSA, which contains Clinton, Scott, and Muscatine counties, Des Moines-West Des Moines-Ames, IA CSA, which contains Boone, Dallas, Guthrie, Jasper, Madison, Marion, Polk, Story, Warren, and Mahaska counties, Omaha-Fremont, NE-IA CSA, which contains Harrison, Mills, and Pottawattamie counties, Sioux City-Le Mars, IA-NE-SD CSA, which contains Plymouth and Woodbury counties, and finally the Spencer-Spirit Lake, IA CSA, which contains Clay and Dickinson counties. The graph below these uses calculated averages based on percentiles, to see how far a value is from the median of all counties, which is shown for CSA’s below.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis\nSpencer-Spirit Lake, IA CSA performs best in Built, Financial, Human, Natural, and Political capitals. Burlington-Fort Madison, IA-IL CSA, performs worst in Built, Financial, Human, and Social capitals, but performs best in Cultural, and well (second place) in Natural capitals. Percentiles and quintiles show the same results."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#single-variables-across-msa-type-or-ers-typology",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#single-variables-across-msa-type-or-ers-typology",
+    "title": "Community Capitals - Week Two",
+    "section": "Single variables across MSA type or ERS typology",
+    "text": "Single variables across MSA type or ERS typology\nThe graphs below show various different variables across MSA type or ERS typology in search for significant differences.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis\nFor some variables, like the Gini Income Index and Food Environment Index, averages across MSA types or ERS typologies remain close to the 50th percentile (median of all counties), indicating only minor variation between groups. For others, like percentage of small businesses, averages across MSA types or ERS typologies stray farther from the 50th percentile (median of all counties), indicating more significant variations between groups. Though, after looking through all average variable percentiles across either MSA type or ERS typology, there are very few variables with significant variations for each."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#overview",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#overview",
+    "title": "Community Capitals - Week Two",
+    "section": "Overview",
+    "text": "Overview\nThis analysis examines the socioeconomic differences between rural and urban counties in Iowa, revealing several counterintuitive patterns in poverty, income, and social indicators."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#key-findings",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#key-findings",
+    "title": "Community Capitals - Week Two",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nPoverty Patterns\n\nStudent Effect: Story County, Johnson County, and Black Hawk County show higher poverty rates despite higher median incomes, likely due to college students experiencing temporary low income\nIncome vs Poverty Paradox: Higher median income doesn’t guarantee lower poverty rates\nRural Advantage: Lyon County demonstrates that rural areas can achieve low poverty rates with modest incomes\n\n\n\nContributing Factors to Poverty\nBased on our correlation analysis:\n\nPoor health status correlates positively with poverty rates\nSingle-parent households show strong correlation with higher poverty\nThese relationships suggest interconnected social challenges\n\n\n\nRacial Diversity Effects\nRural Counties: Weak correlation between diversity and income inequality\nUrban Counties: Higher diversity associates with greater income inequality (Gini Index)\nHealth Insurance: Both rural and urban areas show diversity negatively correlating with insurance coverage\n\n\nThe Wealth-Inequality Paradox\nAreas with higher population density and wealth generation show:\n\nPositive aspects: Higher median incomes, more economic opportunities\nChallenges: Greater income inequality, higher poverty rates in some cases\nExplanation: Urban areas attract both high earners and low-wage workers, creating income polarization"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#notable-cases",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#notable-cases",
+    "title": "Community Capitals - Week Two",
+    "section": "Notable Cases",
+    "text": "Notable Cases\n\nJefferson County\n\nHighest Gini Index with low median income\nHigh percentage of small businesses and bachelor’s graduates\nElevated environmental risk factors\nHighest federal contribution per adult\n\n\n\nDes Moines Area\n\nHigh poverty rate alongside high median income\nStrong financial capital but weaker social indicators\nSuburban areas perform better across multiple measures\n\n\n\nDickinson County\n\nHighest new housing prices and construction\nLake-based tourism economy attracts wealthy retirees\nNatural amenities drive unique economic dynamics\n\n\n\nFarm-Dependent Counties\nOur analysis shows farm-dependent counties typically have:\n\nLower median household income\nLower poverty rates relative to income levels\nThis pattern suggests rural cost-of-living advantages and community support systems"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#health-connections",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#health-connections",
+    "title": "Community Capitals - Week Two",
+    "section": "Health Connections",
+    "text": "Health Connections\n\nIowa Mental Health Statistics\n\n19.4% of adults in Iowa experience a mental health condition\n56.4% of adults with mental illness don’t receive treatment\n13.8% of youth experience major depressive episodes\n780 individuals per 1 mental health provider (indicating shortage)\n\n\n\nCorrelation with Socioeconomic Patterns\nThe mental health data reinforces our findings:\n\nHealth-Poverty Cycle: Untreated health conditions worsen economic outcomes\nRural Access: Lower poverty but potentially hidden mental health burdens due to provider shortages\nStudent Mental Health: College counties face dual burden of temporary poverty and youth mental health crisis\nInequality Impact: Mental health disparities likely contribute to urban income inequality patterns"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#data-visualizations",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#data-visualizations",
+    "title": "Community Capitals - Week Two",
+    "section": "Data Visualizations",
+    "text": "Data Visualizations\n\nPoverty and Income Relationships\n\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n`geom_smooth()` using formula = 'y ~ x'\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding why rural areas have higher median income and higher poverty rates but lower income in equality\nPotential Contributing Factors\nSuburban-Rural Misclassification: Due to population thresholds, some commuter suburbs might be classified as rural (especially in ACS or Census data). These residents may work urban jobs with higher wages, pushing up median income. Meanwhile, others in the same areas may work locally for much lower wages or be unemployed, inflating poverty rates.\nEffect:\n-Raises median income via urban-connected earners\n-Raises poverty rate via local non-earners or underemployed\n-Keeps inequality low because incomes are not as extreme as in cities\nLimited Economic Diversity: Rural areas often lack extreme wealth concentrations found in urban centers. Even if some earn more, income ceilings are lower compared to cities.\nEffect:\n-Inequality appears lower due to narrower income range, despite differences in livelihood quality.\nHousehold Composition & Cost of Living:\n-Larger rural households may have dual-income setups (e.g., both spouses working), pushing up median income.\n-Yet, single-person or elderly households with limited resources remain vulnerable, increasing poverty rates.\n-Lower cost of living can mask hardship in income statistics.\nEffect:\n-Median income looks better -Poverty remains high among vulnerable groups -Overall income spread remains tight → lower Gini coefficient\nCommuting Patterns: Some rural residents commute to higher-paying city jobs (especially near metro fringes).\nThis creates a bimodal population:\n-One group with urban income -Another group with limited local income or unemployment\nEffect:\n-Median income rises due to city-connected earners -Poverty rate high from those without access to such opportunities -Income inequality stays moderate due to few ultra-wealthy\nWhat To Explore Further\n-Commute Time Analysis: Match income and poverty data with average commute times to identify suburban influence in rural stats.\n-Gini Coefficient Maps: Compare inequality within census tracts labeled as rural to detect variations.\n-Occupation Types: Identify how remote work or medical/educational professions cluster in rural areas."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#why-rural-areas-have-more-single-parents",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#why-rural-areas-have-more-single-parents",
+    "title": "Community Capitals - Week Two",
+    "section": "Why Rural Areas Have More Single Parents",
+    "text": "Why Rural Areas Have More Single Parents\nThis section explores the factors contributing to higher single parenthood rates in rural areas:\n\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\nSingle Parent Household Statistics by County Type\n\n\n\n\n\n\n\n\n\ncounty_type\nCounties\nMean_Single_Parent\nMedian_Single_Parent\nSD_Single_Parent\n\n\n\n\nNon-Rural\n22\n0.42\n0.34\n0.28\n\n\nRural\n77\n0.53\n0.51\n0.22\n\n\n\n\n\n\nUnderstanding Rural Single Parenthood Patterns\nWhy do rural areas show higher rates of single parenthood?\nPotential Contributing Factors:\n-Economic Constraints: Many rural Iowans face limited employment opportunities, wage stagnation, and underemployment. Financial strain can contribute to relationship breakdowns or discourage formal partnerships like marriage.\n-Out-Migration: Young adults often leave rural Iowa for better educational or career opportunities in urban centers. This reduces the pool of potential partners, weakens community ties, and interrupts long-term relationships.\n-Cultural Factors: Family formation norms vary across rural regions. In some areas, early childbearing, cohabitation without marriage, or single parenting may be more socially accepted or less stigmatized than in urban areas.\n-Service Access: Access to family planning, prenatal care, mental health services, and relationship counseling is limited in many parts of rural Iowa. This contributes to unplanned pregnancies and a lack of support for struggling relationships.\n-Religious and Policy Influences: While rural Iowa communities often hold traditional values, they also tend to support policies that restrict abortion access and comprehensive sex education. Combined with limited reproductive healthcare, this can lead to higher rates of single parenthood following unintended pregnancies.\nSupport Systems and Policy Context in Iowa:\n-Strong Informal Networks: Rural Iowans often benefit from strong extended family and community support after separation. However, these supports cannot fully address the root causes.\n-State Programs: Iowa offers programs like the Family Investment Program (FIP), Parent Partners, Early Head Start, and Medicaid, which help single parents with basic needs, health, and employment training. However, gaps remain:\n-Guaranteed income pilots (e.g., UpLift) have been banned for future expansion.\n-Childcare shortages in rural counties force many parents out of the workforce.\n-SNAP asset tests and restrictions risk excluding vulnerable rural families.\n\n\nRacial Diversity Analysis\n\n\n`geom_smooth()` using formula = 'y ~ x'\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding Race Diversity correlation with socioeconomic indicators\nIncome Inequality (Gini Index)\nRural Counties:\nThere is a weak correlation between racial diversity and income inequality. This suggests that in rural areas, increasing racial diversity does not significantly drive disparities in income distribution. Other factors (e.g., employment type, educational access, migration) may play a larger role.\nUrban Counties:\nHigher racial diversity is associated with greater income inequality. In urban settings, economic stratification often coincides with racial or ethnic divides, possibly due to systemic inequalities in education, housing, and labor markets.\nHealth Insurance Coverage\nIn urban areas, racial diversity is negatively correlated with health insurance coverage. As diversity increases, the percentage of insured individuals tends to decline, potentially reflecting disparities in employment-based insurance access, citizenship status, and enrollment in public programs.\n\n\nThe Diversity-Income-Inequality Triangle\n\n\n\n\n\n\n\n\nUnderstanding the Diversity-Income-Inequality Triangle\nUrban Counties:\nTend to show higher racial diversity. Exhibit greater income inequality (larger blue points).\nShow a wider range of median incomes, including both very low and very high. Diversity and inequality appear positively correlated.\nRural Counties:\nCluster toward low racial diversity and lower-to-mid median income.\nDisplay a wide range of inequality, but point sizes are generally smaller than urban counterparts.\nDiversity has a weaker or no clear association with inequality.\nThis plot illustrates the triangular tension among:\nDiversity (often associated with opportunity and inclusion)\nIncome (general prosperity)\nInequality (distribution of prosperity)\nIn urban areas:\nMore diversity attracts both high earners and low-wage workers, increasing polarization. Hence, diversity → income opportunity → inequality.\nIn rural areas:\nLow diversity and modest incomes dominate. Inequality may arise from access disparities, not demographic heterogeneity."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#summary-statistics",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#summary-statistics",
+    "title": "Community Capitals - Week Two",
+    "section": "Summary Statistics",
+    "text": "Summary Statistics\n\n\n\nSummary Statistics: Rural vs Non-Rural Counties\n\n\n\n\n\n\n\n\n\n\n\nCounty Type\nCounties\nAvg Poverty Rate\nAvg Median Income\nAvg Diversity Index\nAvg Gini Index\nAvg Insurance Rate\n\n\n\n\nNon-Rural\n22\n0.30\n0.375\n0.354\n0.440\n0.56\n\n\nRural\n77\n0.52\n0.457\n0.171\n0.332\n0.88"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#conclusions",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#conclusions",
+    "title": "Community Capitals - Week Two",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nKey Takeaways\n\nStudent Effect is Real: College counties challenge traditional poverty metrics\nDiversity Creates Complex Dynamics: Urban diversity correlates with both opportunity and inequality\nRural Resilience: Farm-dependent counties show economic stability despite lower absolute incomes\nHealth-Poverty Connection: Mental health gaps compound socioeconomic challenges\nGeographic Context Matters: One-size-fits-all policies are inappropriate for Iowa’s diverse counties\n\n\n\nPolicy Implications\n\nTargeted Interventions Needed\n\nCollege Counties: Student-specific poverty measures and support systems\nDiverse Urban Areas: Focused equity initiatives to address inequality\nRural Health: Mental health workforce development critical given access gaps\nFarm Communities: Preserve social capital while encouraging economic diversification\n\n\n\nEconomic Development Insights\n\nFarm dependency provides stability but may limit growth potential\nUrban diversity creates opportunity but requires active inequality management\n\n\n\n\nLimitations\n\nData quality can be a limitation, as some measures may be wonky and different from certain data sources online\nLack of policy-induced changes analysis only provides current conditions without policy context\nStudent population effects may artificially inflate poverty rates in college counties\nGeographic aggregation at county level may mask city variations\nCausation vs correlation - the analysis shows relationships but doesn’t establish causal mechanisms\n\n\n\nFuture Research\n\nTime series Analysis: Track changes over time to identify trends\nSpatial Analysis: Account for geographic effects\nHealth Integration: Develop comprehensive models linking health, economics, and geography\nEconomic types: Analyze different economic dependencies (e.g., farming, manufacturing, services) to understand their impact on community capitals.\n\nThis analysis demonstrates that Iowa’s socioeconomic landscape is far more complex than simple rural-urban dichotomies suggest, requiring nuanced approaches to policy and development that recognize each region’s unique characteristics and challenges."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#selected-housing-variables",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#selected-housing-variables",
+    "title": "Community Capitals - Week Two",
+    "section": "Selected Housing Variables",
+    "text": "Selected Housing Variables\n\nMedian Property Value, Median Year Built, Percent of Households with Broadband Access,Percent of Households with Complete Plumbing"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#data-insights-and-heatmap-analysis",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#data-insights-and-heatmap-analysis",
+    "title": "Community Capitals - Week Two",
+    "section": "Data Insights and heatmap analysis",
+    "text": "Data Insights and heatmap analysis"
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#what-they-did",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#what-they-did",
+    "title": "Community Capitals - Week Two",
+    "section": "What They Did:",
+    "text": "What They Did:\nBroadband Pushes: Storm Lake’s early city-school fiber ducts and Spencer’s local ISP expansions created foundational change.\nHousing Rehabilitation: Denison and Carroll used local banks and federal CDBG grants to fund rehab programs and modest new builds.\nFlexible Growth Tools: Carroll encouraged infill housing using bonds and local partnerships after 2018.\n\nWhy They’re Mid-tier:\nTiming: Many projects began in or after 2018—results are just starting to show.\nSmall Scale: Denison’s 7-unit construction and rehab efforts were limited in scale, preventing full-tier improvement.\n\n\nLimitations:\nImprovements were uneven or didn’t scale across the whole city.\nBroadband still lags in low-income neighborhoods."
+  },
+  {
+    "objectID": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#tier-3-patchy-progress-infrastructure-gaps-grinnell-spencer-fairfield-mount-pleasant-oskaloosa",
+    "href": "blogs2025/Week-Two/weekly-blog-two-community-cap/Weekly_Team_Blog.html#tier-3-patchy-progress-infrastructure-gaps-grinnell-spencer-fairfield-mount-pleasant-oskaloosa",
+    "title": "Community Capitals - Week Two",
+    "section": "Tier 3 – Patchy Progress & Infrastructure Gaps Grinnell, Spencer, Fairfield, Mount Pleasant, Oskaloosa",
+    "text": "Tier 3 – Patchy Progress & Infrastructure Gaps Grinnell, Spencer, Fairfield, Mount Pleasant, Oskaloosa\n\nWhat They Tried:\nDowntown Revitalization:\nBroadband Attempts: Spencer and Mount Pleasant installed fiber before 2018, but take-up was slow.\nSewer Fixes: Oskaloosa and Fairfield invested in sewer systems, improving plumbing indicators.\n\n\nWhy It Didn’t Fully Work:\nLocalized Improvements: Most projects didn’t reach the full city.\nDelayed Rollouts: Fiber reached neighborhoods late or remained unconnected.\nLittle New Housing: Most cities didn’t add many homes so median year built stayed low.\n\n\nLimitations:\nPlumbing and broadband improvements didn’t scale.\nMost benefits were visible only in central or well-resourced areas. ### Tier 4 – Struggling or Underinvested Cities Fort Madison, Keokuk\n\n\nWhat They Did:\nRelied on Grants: Both cities used CDBG or state historic preservation grants for small-scale housing rehab.\nMaintained Low-Income Units: Fort Madison’s housing authority supported over 100 households with federal assistance.\n\n\nWhy They Remain Low Tier:\nMinimal New Development: No new large housing projects.\nAging Infrastructure: Water systems and housing stock remained older than average.\nWeak Broadband Efforts: Little evidence of citywide or neighborhood fiber investment before 2022.\n\n\nLimitations:\nEven with downtown rehabs, systemic issues (like vacant lots, outmigration) outweighed progress.\nACS data shows accurate reflections—Z-scores low across all metrics."
   },
   {
     "objectID": "index.html",
