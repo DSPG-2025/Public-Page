@@ -606,14 +606,14 @@
     "href": "schedule.html#july-2nd---wednesday",
     "title": "Weekly Schedule",
     "section": "July 2nd - Wednesday",
-    "text": "July 2nd - Wednesday\n\nLocation\n\nEast Hall 311\n\n\n\n8:00 - 9:00: Project Members Meet with their Teams\n10:30 - 12:00: Introduction to Shiny\nRest of Day: Continue Project Specific Work"
+    "text": "July 2nd - Wednesday\n\nLocation\n\nEast Hall 311 Online\n\n\nMeeting Online Due to Room Being Booked in Morning\n\n8:00 - 9:00: Project Members Meet with their Teams\n12:00 - 1:00: Poster Preparation Session (Student Innovation Center 0114)\nRest of Day: Continue Project Specific Work"
   },
   {
     "objectID": "schedule.html#july-3rd---thursday",
     "href": "schedule.html#july-3rd---thursday",
     "title": "Weekly Schedule",
     "section": "July 3rd - Thursday",
-    "text": "July 3rd - Thursday\n\nLocation\n\nEast Hall 311\n\n\nYing Weo - Structured Data Augmentation presentation\n\n8:00 - 12:00: Project Members Meet with their Teams\n12:00 - 1:00: Structured Data Augmentation presentation\n1:00 - 2:00: Lunch Break\nRest of Day: TBD"
+    "text": "July 3rd - Thursday\n\nLocation\n\nEast Hall 311\n\n\nYing Weo - Structured Data Augmentation presentation\n\n8:00 - 9:00: Project Members Meet with their Teams\n10:30 - 12:00: Introduction to Shiny\n12:00 - 1:00: Structured Data Augmentation presentation\n1:00 - 2:00: Lunch Break\nRest of Day: No DSPG"
   },
   {
     "objectID": "schedule.html#july-4th---friday",
@@ -711,7 +711,7 @@
     "href": "schedule.html#july-23rd---wednesday",
     "title": "Weekly Schedule",
     "section": "July 23rd - Wednesday",
-    "text": "July 23rd - Wednesday\n\nLocation\n\nStudent Innovation Center 0114\n\n\nFinal Presentations\nPresentation Schedule\n\n9:15 - 9:30: Introduction to DSPG Presentations\n9:30 - 10:15: Presentation: Iowa STEM Inventory\n10:15 - 10:30: Session Q&A\n10:30 - 11:15: Presentation: Community Capitals\n11:15 - 11:30: Session Q&A\n11:30 - 11:40: Concluding Remarks"
+    "text": "July 23rd - Wednesday\n\nLocation\n\nStudent Innovation Center 0114\n\n\nFinal Presentations\nPresentation Schedule\n\n10:00 - 10:15: Introduction to DSPG\n10:15 - 11:05: Presentation: STEM Education\n11:05 - 11:20: Session Q&A\n11:20 - 12:10: Presentation: Community Capitals\n12:10 - 12:25: Session Q&A\n12:25 - 12:30: Concluding Remarks"
   },
   {
     "objectID": "participants.html",
@@ -1446,42 +1446,42 @@
     "href": "index.html",
     "title": "Data Science for Public Good 2025",
     "section": "",
-    "text": "This Quarto website is an experimental page hosting project documentation for the 2024 Data Science for Public Good program at Iowa State University. The Project Blogs tab contains the documentation for each team’s work on a regular basis. The Student Blogs tab contains the introductory blog posts of all participants in DSPG for the summer of 2025. The Activities tab contains student work on activities they’ve completed as part of the program.\nTo learn more about the program, follow the link to the Iowa State University DSPG Program."
+    "text": "This Quarto website is an experimental page hosting project documentation for the 2025 Data Science for Public Good program at Iowa State University. The Project Blogs tab contains the documentation for each team’s work on a regular basis. The Student Blogs tab contains the introductory blog posts of all participants in DSPG for the summer of 2025.\nTo learn more about the program, follow the link to the Iowa State University DSPG Program."
   },
   {
     "objectID": "index.html#introduction",
     "href": "index.html#introduction",
     "title": "Data Science for Public Good 2025",
     "section": "",
-    "text": "This Quarto website is an experimental page hosting project documentation for the 2024 Data Science for Public Good program at Iowa State University. The Project Blogs tab contains the documentation for each team’s work on a regular basis. The Student Blogs tab contains the introductory blog posts of all participants in DSPG for the summer of 2025. The Activities tab contains student work on activities they’ve completed as part of the program.\nTo learn more about the program, follow the link to the Iowa State University DSPG Program."
+    "text": "This Quarto website is an experimental page hosting project documentation for the 2025 Data Science for Public Good program at Iowa State University. The Project Blogs tab contains the documentation for each team’s work on a regular basis. The Student Blogs tab contains the introductory blog posts of all participants in DSPG for the summer of 2025.\nTo learn more about the program, follow the link to the Iowa State University DSPG Program."
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
     "title": "Data Science for Public Good 2025",
     "section": "Projects",
-    "text": "Projects\n\nIowa STEM Inventory\nDespite the recognized importance of STEM initiatives, there remains a lack of comprehensive and actionable data on the availability and distribution of STEM resources within Iowa communities. It is unclear how extensive these resources are and how effectively they can be mobilized to support STEM education development. Additionally, a deeper understanding is needed of the factors influencing students’ decisions to pursue STEM education in Iowa, such as access to local job opportunities, educational infrastructure, participation in science fairs, and extracurricular programs. This project seeks to address these gaps by developing a centralized, user-friendly data repository along with visualization tools that present clear and contextual information. These resources will serve Iowa’s policymakers, educators, advocates, and community stakeholders by informing strategic decisions, guiding investments, and supporting targeted policy interventions to strengthen STEM education throughout the state.\nProject Sponsor: ISU Community and Economic Development\n\n\n\nHealthy Community Capitals\nThe Community Capitals project seeks to explore the relationship between community capital indicators and the overall condition of communities in Iowa, aiming to identify strengths, weaknesses, opportunities, and gaps within these communities. The main work focuses on major events such as natural disasters, job losses, new job creation, school closures, and new opportunities for tourism and healthcare. The study seeks to identify the most relevant community capitals, trends over time, and the impact on community resiliency, by analyzing correlations between various indicators and comparing quantitative data with some qualitative insights.\nProject Sponsor: ISU Community and Economic Development"
+    "text": "Projects\n\nIowa STEM Inventory\nDespite the recognized importance of STEM initiatives, there remains a lack of comprehensive and actionable data on the availability and distribution of STEM resources within Iowa communities. It is unclear how extensive these resources are and how effectively they can be mobilized to support STEM education development. Additionally, a deeper understanding is needed of the factors influencing students’ decisions to pursue STEM education in Iowa, such as access to local job opportunities, educational infrastructure, participation in science fairs, and extracurricular programs. This project seeks to address these gaps by developing a centralized, user-friendly data repository along with visualization tools that present clear and contextual information. These resources will serve Iowa’s policymakers, educators, advocates, and community stakeholders by informing strategic decisions, guiding investments, and supporting targeted policy interventions to strengthen STEM education throughout the state.\nProject Sponsor: ISU Community and Economic Development\nProject Advisers: Mohammad Ahnaf Sadat, Chris Seeger\nGraduate Fellows: Jorge Yass\nUndergraduate Scholars: Aparneesh Patil, Ekaterina Kurkalova, Rishita Kollu\nFinal Presentation Video: Final Presentations on July 23rd\n\n\nHealthy Community Capitals\nThe Community Capitals project seeks to explore the relationship between community capital indicators and the overall condition of communities in Iowa, aiming to identify strengths, weaknesses, opportunities, and gaps within these communities. The main work focuses on major events such as natural disasters, job losses, new job creation, school closures, and new opportunities for tourism and healthcare. The study seeks to identify the most relevant community capitals, trends over time, and the impact on community resiliency, by analyzing correlations between various indicators and comparing quantitative data with some qualitative insights.\nProject Sponsor: ISU Community and Economic Development\nProject Advisers: Bailey Hanson\nGraduate Fellows: Meenakshi\nUndergraduate Scholars: Duy Doan, Madison Herdlicka, Tanisha Magikar\nFinal Presentation Video: Final Presentations on July 23rd"
   },
   {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Quarto Guides\n\n\n\n\nOverleaf LateX Guide"
+    "text": "This is a resource page for participants in the program who are likely to come across these technologies."
   },
   {
     "objectID": "resources.html#quarto",
     "href": "resources.html#quarto",
     "title": "Resources",
-    "section": "",
-    "text": "Quarto Guides"
+    "section": "Quarto",
+    "text": "Quarto\nQuarto Guides"
   },
   {
     "objectID": "resources.html#latex",
     "href": "resources.html#latex",
     "title": "Resources",
-    "section": "",
-    "text": "Overleaf LateX Guide"
+    "section": "LaTex",
+    "text": "LaTex\nOverleaf LateX Guide"
   },
   {
     "objectID": "resources.html#packages-and-modules",
